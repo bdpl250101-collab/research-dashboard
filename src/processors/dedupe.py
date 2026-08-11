@@ -8,10 +8,17 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 _DOI_PREFIX = re.compile(r"^(https?://)?(dx\.)?doi\.org/", re.IGNORECASE)
+
+
+def archive_name(today: date) -> str:
+    """주차 아카이브 파일명. 저장과 중복 제거가 같은 규칙을 쓰도록 한 곳에 둔다."""
+    year, week, _ = today.isocalendar()
+    return f"{year}-W{week:02d}.json"
 
 
 def normalize_doi(doi: str) -> str:
@@ -19,14 +26,21 @@ def normalize_doi(doi: str) -> str:
     return _DOI_PREFIX.sub("", (doi or "").strip()).lower().rstrip("/")
 
 
-def load_seen_dois(archive_dir: Path | str) -> set[str]:
-    """주차별 아카이브 JSON을 훑어 이미 수집한 DOI 집합을 만든다."""
+def load_seen_dois(archive_dir: Path | str, *, exclude: str | None = None) -> set[str]:
+    """주차별 아카이브 JSON을 훑어 이미 수집한 DOI 집합을 만든다.
+
+    exclude 에는 지금 쓰는 중인 주차 파일명을 넘긴다. 넘기지 않으면 같은 주에
+    재실행할 때 방금 저장한 결과가 '이미 노출됨' 으로 걸려서 전량 제거되고,
+    그 빈 결과가 다시 그 주 아카이브를 덮어쓴다.
+    """
     seen: set[str] = set()
     directory = Path(archive_dir)
     if not directory.exists():
         return seen
 
     for path in sorted(directory.glob("*.json")):
+        if exclude and path.name == exclude:
+            continue
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -81,14 +95,19 @@ def _news_keys(record: dict) -> tuple[str, str]:
     return normalize_url(record.get("url", "")), normalize_title(record.get("title", ""))
 
 
-def load_seen_news(archive_dir: Path | str) -> set[str]:
-    """주차별 아카이브를 훑어 이미 노출한 뉴스의 URL·제목 키 집합을 만든다."""
+def load_seen_news(archive_dir: Path | str, *, exclude: str | None = None) -> set[str]:
+    """주차별 아카이브를 훑어 이미 노출한 뉴스의 URL·제목 키 집합을 만든다.
+
+    exclude 의 의미는 load_seen_dois 와 같다 (현재 주차 파일 제외).
+    """
     seen: set[str] = set()
     directory = Path(archive_dir)
     if not directory.exists():
         return seen
 
     for path in sorted(directory.glob("*.json")):
+        if exclude and path.name == exclude:
+            continue
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):

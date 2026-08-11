@@ -182,6 +182,40 @@ def test_dedupe_removes_seen_and_batch_duplicates():
     assert [r["doi"] for r in fresh] == ["10.1/a"]
 
 
+def test_archive_name_uses_iso_week():
+    from datetime import date
+    assert dedupe.archive_name(date(2026, 8, 11)) == "2026-W33.json"
+
+
+def test_current_week_archive_is_excluded_from_seen():
+    """같은 주 재실행이 그 주 데이터를 지우면 안 된다 (실제로 겪은 사고).
+
+    아카이브 폴더의 *.json 을 전부 '이미 노출됨' 으로 읽으면, 재실행 시
+    방금 저장한 이번 주 파일이 자기 자신을 걸러내고 빈 결과로 덮어쓴다.
+    """
+    import json
+    import tempfile
+    from pathlib import Path
+
+    with tempfile.TemporaryDirectory() as tmp:
+        directory = Path(tmp)
+        (directory / "2026-W32.json").write_text(
+            json.dumps({"papers": [{"doi": "10.1/old"}]}), encoding="utf-8")
+        (directory / "2026-W33.json").write_text(
+            json.dumps({"papers": [{"doi": "10.1/thisweek"}]}), encoding="utf-8")
+
+        # 제외하지 않으면 이번 주 DOI 까지 '이미 봤음' 이 된다
+        assert dedupe.load_seen_dois(directory) == {"10.1/old", "10.1/thisweek"}
+        # 이번 주 파일을 빼면 지난 주 것만 남는다
+        assert dedupe.load_seen_dois(directory, exclude="2026-W33.json") == {"10.1/old"}
+
+        # 뉴스도 같은 규칙
+        (directory / "2026-W33.json").write_text(
+            json.dumps({"news": [{"url": "https://a/1", "title": "이번 주"}]}),
+            encoding="utf-8")
+        assert dedupe.load_seen_news(directory, exclude="2026-W33.json") == set()
+
+
 def test_cap_per_topic_keeps_newest():
     records = [
         {"doi": f"10.1/{i}", "title": str(i), "topics": ["pfas"], "published": f"2026-08-{i:02d}"}

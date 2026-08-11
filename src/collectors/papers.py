@@ -402,8 +402,12 @@ def run(days: int = config.LOOKBACK_DAYS, *, archive: bool = True) -> tuple[list
     """
     from src.processors import dedupe
 
+    today = date.today()
+    current = dedupe.archive_name(today)
+
     records = collect(days)
-    seen = dedupe.load_seen_dois(ROOT / config.PAPERS_DIR)
+    # 같은 주 재실행 시 방금 저장한 파일이 자기 자신을 걸러내지 않도록 제외한다
+    seen = dedupe.load_seen_dois(ROOT / config.PAPERS_DIR, exclude=current)
     fresh = dedupe.dedupe_papers(records, seen)
     totals = topic_counts(fresh)
     final = cap_per_topic(fresh, config.MAX_PAPERS_PER_TOPIC)
@@ -417,9 +421,7 @@ def run(days: int = config.LOOKBACK_DAYS, *, archive: bool = True) -> tuple[list
         print(f"  {topic['label']}: {shown[key]}건{note}")
 
     if archive:
-        today = date.today()
-        year, week, _ = today.isocalendar()
-        out = ROOT / config.PAPERS_DIR / f"{year}-W{week:02d}.json"
+        out = ROOT / config.PAPERS_DIR / current
         out.parent.mkdir(parents=True, exist_ok=True)
         payload = {
             "collected_at": today.isoformat(),

@@ -245,9 +245,13 @@ def run(days: int = config.LOOKBACK_DAYS, *, archive: bool = True) -> list[dict]
     """수집 -> 중복 제거 -> (선택) 주차 아카이브 저장."""
     from src.processors import dedupe
 
+    today = date.today()
+    current = dedupe.archive_name(today)
+
     print(f"기업 {len(config.COMPANIES)}곳, 최근 {days}일")
     records = collect(days)
-    seen = dedupe.load_seen_news(ROOT / config.NEWS_DIR)
+    # 같은 주 재실행 시 방금 저장한 파일이 자기 자신을 걸러내지 않도록 제외한다
+    seen = dedupe.load_seen_news(ROOT / config.NEWS_DIR, exclude=current)
     fresh = dedupe.dedupe_news(records, seen)
 
     print(f"\n수집 {len(records)}건 -> 중복 제거 {len(fresh)}건")
@@ -256,9 +260,7 @@ def run(days: int = config.LOOKBACK_DAYS, *, archive: bool = True) -> list[dict]
         print(f"  {company['label']}: {n}건")
 
     if archive:
-        today = date.today()
-        year, week, _ = today.isocalendar()
-        out = ROOT / config.NEWS_DIR / f"{year}-W{week:02d}.json"
+        out = ROOT / config.NEWS_DIR / current
         out.parent.mkdir(parents=True, exist_ok=True)
         payload = {
             "collected_at": today.isoformat(),
