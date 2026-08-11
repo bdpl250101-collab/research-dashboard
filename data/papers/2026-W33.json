@@ -76,6 +76,28 @@
     },
     {
       "topics": [
+        "electrocatalysis",
+        "oer_her"
+      ],
+      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
+      "authors": [
+        "Xiangyao Gu",
+        "Yaozhong Guo",
+        "Meiping Li",
+        "Tongtong Ye",
+        "Yi Xu",
+        "Changshui Huang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-10",
+      "published_precision": "day",
+      "created": "2026-08-10",
+      "doi": "10.1021/jacs.6c14322",
+      "url": "https://doi.org/10.1021/jacs.6c14322",
+      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
+    },
+    {
+      "topics": [
         "oer_her"
       ],
       "title": "Programmable Vacancy Topology in High-Entropy-Alloy-Inspired Multiprincipal Alloys Directs Ru-Centered Alkaline Hydrogen Evolution",
@@ -104,28 +126,6 @@
       "doi": "10.1021/jacs.6c09149",
       "url": "https://doi.org/10.1021/jacs.6c09149",
       "abstract": "Vacancy topology in multiprincipal alloys provides a controllable handle to tune interfacial reaction pathways, yet practical routes to program vacancies in ultrasmall alloys remain scarce. Here, we report an H2-free, volatility-assisted MOF-to-alloy synthesis in an inert atmosphere that yields sub-4 nm MnFeRuCoNi-based multiprincipal alloy nanoparticles with a Ru-proximal vacancy environment. A closed set of mutually reinforcing measurements─PALS/EPR (defect generation), EXAFS/XPS/XANES (coordination/electronic states), multipressure NAP-XPS (Ru→O(H2O) interfacial charge transfer), REELS/TOF-SIMS (H* and H3O+ intermediates), and in situ Raman (Ru–H vibration)─establishes a causal sequence from programmed vacancy topology to local electron redistribution at Ru, accelerated water activation, and step-specific alkaline-HER kinetics. Density-functional theory with Bader analysis shows reduced electron density at Ru and enhanced Ru→O charge transfer upon H2O adsorption in vacancy-rich environments, consistent with experimental observables. In 1.0 M KOH, the catalyst delivers an overpotential of 13 mV at 10 mA cm–2, a 47 mV dec–1 Tafel slope, and ∼2600 h stability at 100 mA cm–2, rivaling Ru benchmarks and approaching Pt/C under matched protocols. The volatility-assisted MOF-to-alloy route may be extendable to other multiprincipal alloy families containing a sacrificial volatile component, thereby offering a promising strategy for encoding vacancy topology in complex alloys."
-    },
-    {
-      "topics": [
-        "electrocatalysis",
-        "oer_her"
-      ],
-      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
-      "authors": [
-        "Xiangyao Gu",
-        "Yaozhong Guo",
-        "Meiping Li",
-        "Tongtong Ye",
-        "Yi Xu",
-        "Changshui Huang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-10",
-      "published_precision": "day",
-      "created": "2026-08-10",
-      "doi": "10.1021/jacs.6c14322",
-      "url": "https://doi.org/10.1021/jacs.6c14322",
-      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
     },
     {
       "topics": [
