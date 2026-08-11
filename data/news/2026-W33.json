@@ -1,17 +1,56 @@
 {
   "collected_at": "2026-08-11",
   "lookback_days": 7,
-  "count": 34,
+  "count": 22,
   "news": [
     {
       "companies": [
         "posco"
       ],
-      "title": "포스코 포항제철소, AI로 설비 고장 미리 잡는다…스마트 정비 확대",
+      "title": "플랜트건설노조·포스코, 광양서 첫 상견례…원청교섭 본격 착수",
+      "source": "뉴스핌",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:22:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VZWhEY2Z6U2UyZ3V1WUJQVFZJcnh4MWgzb1ZDalR3NE40ZU8yU2xTS3NPb3QzbWxTY2pCNmdNQ0ZmX0NaZDZBc2hKT0llWG55a0lMcW9sYlNEMnp5?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "블록딜 대신 PRS…포스코홀딩스 '조용한 지분 매각' 왜",
+      "source": "톱데일리",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQUpwU2otS05tMnk0TWlLdnVRVmpmMHJ0Q2ZPN2ZPM2c4cFBPX2FQd2ZxMHZKR2xzOE41UmJQeFdiX19HRjFxSldXYnYxLTRa?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "역촌역세권 시공사 선정 ‘수의계약’ 가시권…포스코이앤씨 단독 행보",
+      "source": "서울신문",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:06:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5GdVlLZFdYTmNHYU5SWFhUQmVkaVZaMXJYOFRIOVNsUGFkSHpHb2tlUUlSV29EdEFxaTJZa1V5TFRYZDFKNU5jZF9UQTdwNXlqdElZLUhaTHBtUmkxTDV3cG01U1NxLUFxcjJZYzM2MA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "포스코그룹, 인니 찔레곤서 ‘1% 나눔’…임직원 직접 학교 새단장",
       "source": "철강금속신문",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T15:10:48+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9DdlVLc2VNZHYteEpZWDAydDJXaTBSUEdMdm9wa2hFS1JJcDJZV1NfOW5MbFpCQUd5c2RhV05QRE5oUjhnWk55Y2RmbWpSZnlmZTF0QVVZX3gxZkVZaVdKZEJXbzRCLUYyLWc?oc=5",
+      "published_at": "2026-08-11T16:04:43+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NWXlKTjZJR2tNZExPdlp6c3lDakJsdWVfYXI3eUNTTGU3RmUyYWZhbXBYTGFjM3hBMl9GaFFtcVZ0X1RUYmZPWjFIeFFwcVhxLUdzYXRlX2VTRlNWYks4VWthMFF5RVkxaFE?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -20,50 +59,24 @@
       "companies": [
         "posco"
       ],
-      "title": "양극재 3사 희비…엘앤에프 웃고 에코프로·포스코퓨처엠 주춤",
-      "source": "hidomin.com",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T13:50:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zWUhJaXFpRGcwNGNwRzlmU0tiRTFMNVpHWGduaS1xQnQ4cm10S3J1a2Q3eUl2bWhSeTBmaTY4b3htTTlCdHJFczRXMzRjMmFqYV9IenpvdWhYR09jWEpoX29jeUVQOEdZOVE?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "posco"
-      ],
-      "title": "포스코 포항제철소, 냉연공장에 스마트 정비 도입…“현장 직원 직접 개발”",
-      "source": "서울신문",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T10:56:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKZGdsQk1jQVhBRTg4ZlJOdGRWemk4SzJrMHByS0tpSkZkMWpwNEFBMDBjLUJ6SXNPMTM2UnUyZGtiZ0JKUlBUN011MmVKNEZ2VzU1b0t0SlBvcWNxSk9zeWpkSU5JQmZ6S3hMdFdjMA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "posco"
-      ],
-      "title": "日 반덤핑에 포스코 반박…통상갈등 열연·냉연 확산되나",
+      "title": "APEC경관길·포스코대로 보행자거리, 가로수 관리 우수사례 후보",
       "source": "v.daum.net",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T10:33:14+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tSVJTVzhzeGhJcThqS2IzRVhXOVhhM2tCLW5QNUJPUmpQU3dkS1RyWE1PMzlhclVEaU96Wm9hNm81WGkwWm9ydjA3UndlZ0E?oc=5",
+      "published_at": "2026-08-11T16:01:38+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52blBDZFVZRHVTdXVYUVdSaTc0TVdqZXgwZnpzOGdhdy1YS29iZGExSDJ6amVYLVJ5TXIyUkU0MjJLUmhwWVdhVDBKeTJmX0U?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
     },
     {
       "companies": [
-        "posco"
+        "gscaltex"
       ],
-      "title": "포스코1%나눔재단, 찔레곤 벨룸방 초등학교 시설 개선",
-      "source": "페로타임즈",
+      "title": "GS, 2분기 영업익 1조7174억…GS칼텍스 호실적에 253%↑",
+      "source": "뉴스핌",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T09:40:59+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJS2tIWGpsaURaSHM1UW1CT0xFSXpPc1ltUXBMajNlaDFkXzJjQ2tXRndteXFHMXViMFUzM3pYVlZJTUFrQWpxZWd2Y01USXZiZ01nTHNlaTVKR2xOZ3lLbXVURXhNbWc2NUNBYg?oc=5",
+      "published_at": "2026-08-11T16:33:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBeWNSZEJMakNwdGhWbEtoYk04SWZsM2Qxa1pJdkNlMUtBWGF5d0hjUUNSUF84TVdEUjdTM2VFME5PWHljTjAzemlSMjQ4VHFOcGd2THY0aUwyVWlV?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -72,11 +85,11 @@
       "companies": [
         "gscaltex"
       ],
-      "title": "GS칼텍스, 위기청소년 치유 ‘마음톡톡’ 상반기 수료식 성료",
-      "source": "진일보",
-      "published": "2026-08-09",
-      "published_at": "2026-08-09T17:31:55+09:00",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBUejRsay11SGhEeXNNUFh2ZGt1YXozd2p0WV9DZ2FxanVpZlJKbTdrd0NpbjRKTElHME1KODBZMTVkZTVjX09lWmJfWU1aOVFzejYzckgxbEJndXl1cUFhSnpGb1dIVlA4TzVQcGpadw?oc=5",
+      "title": "GS, 2Q 영업이익 전년比 253%↑ 1.7조…GS칼텍스 성장 견인",
+      "source": "뉴스1",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:21:44+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ISXpPUUxsT0J2anNnQndlV1V0ZGY5Tk5MYmxTV3dMX2FveUVZQkJIOHZRQnRsYUJBVm1xSkE2RmpTX0ttV0x6MWZZekZBbk5hMmZPcXVhcUZiaUNPYjVEZFJ3YXLSAWpBVV95cUxOenNobmQyM3ZFY2xLR2t2bzJNeTZBb0Zod094R19QVG5wNWtURXk5QjVhcDU2UVNjbVp5Y0RxaF9ERnAyWG5pNlF4NnprcmN2ZjFXMzhMT3doeUVva29WdjVMeC10UEhFdVdR?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -85,11 +98,11 @@
       "companies": [
         "gscaltex"
       ],
-      "title": "[GS칼텍스배 프로기전] 끝나지 않았다",
-      "source": "v.daum.net",
-      "published": "2026-08-09",
-      "published_at": "2026-08-09T17:21:39+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ldWEwNDNjSkg2cFJleHo5QnBXZEF6R3VWY0lEcFdOeHJQOGN6MUgwMEtMeFdBZ2lVR0NzYjNqclgzMkpxQkxVWGhpa3ExWUlvQW9IRQ?oc=5",
+      "title": "GS, 2분기 영업익 1.7조…GS칼텍스 호실적 덕 253%↑",
+      "source": "서울경제TV",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:18:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ndzRiR3BBYUUyY0dGeUUwRm11Ulg4SUtad05mSkFuQlJsTmpvMFdOZTE4clMyZGNtT2h2SFJ2ZkVoaG5fVktkOFhOUkhlY1hfZVJYbno1bTFGN2poRkwxOFoxWXo?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -98,11 +111,11 @@
       "companies": [
         "gscaltex"
       ],
-      "title": "심리상담·바둑으로 위기청소년 돕는다…GS칼텍스 ‘마음톡톡’ 11년",
-      "source": "아시아투데이",
-      "published": "2026-08-09",
-      "published_at": "2026-08-09T11:12:18+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5aSFAweElMSWpCU2dmYUk1RC01Rm5seEhZWkZLaXFGZnlkaGRqYnAyRlVqc0ZsZGNHX09RVnFmVkVEVjNUcm55WlRrVWllTGNlVVZBRXJ3V09TU1NBOXBsUWxVc0hwVy1XT0JqRkxn?oc=5",
+      "title": "GS 2분기 영업이익 1조7174억으로 253% 급증, GS칼텍스 호조 영향",
+      "source": "비즈니스포스트",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:15:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaDFYNk91Z0tDOGhxOWdrNmVQZl9wa0xDTnRWa0JSRnlKZDhheWFtanNqVVZQVGw5dXlXLXl6azRYTnlKYlNQRFlkY1hRQVZoUTlwWF9LWVNFQ3h1eTdXNXRrdWN6ZzZoYzVmdVVGMTVyaVU?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -111,11 +124,11 @@
       "companies": [
         "gscaltex"
       ],
-      "title": "GS칼텍스, 위기청소년 치유 프로그램 수료식 개최…관계자 40여 명 참석",
-      "source": "gukjenews.com",
-      "published": "2026-08-09",
-      "published_at": "2026-08-09T08:58:23+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCbFJEWjRMYU9tQW1UclBuUjJ0STdPYTMzcXdkVnFWc1hUcGU3ZTh4ck1Va3lTZUg2dWU3eXF0ejZTY1ZjQkRMSVlzUVdRbUJ5S0R0MmN0UEMydFNlcDVSWWZXUEs5VnRkWDRlanpn?oc=5",
+      "title": "GS, 2분기 영업익 전년比 253%↑ 1.7조 … \"GS칼텍스가 견인\"",
+      "source": "뉴데일리",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:08:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NdmZrT1hHUmxTX3hSSTdUajI3OFMwTC1UX3laQ0laeHNOQzRHSl9hSERpR1BRazhJRjNKT0sxcFBkeC1zd2xtRXdidHdRdk91TVM5cGViY1o0Tk9NT0VDNUJrTzJ5VGk3Y1lmVHNLbzN6ZWdYd2FzSlpLVdIBgAFBVV95cUxQT0dKMFpGMURQM3V4S2h1bnF3RTlWUFRLYUp4anlFY255WWZCS0ZGWnNZTkR6bUlkMHpoY0o1em1tTlV0ZG4yM0xoZGVrbThGcmlBcGhfd0xQc2djVk1oU1lzTHROLTZTSkRiNi0tUXFyZmJnRTNHU0JBOWx3cEVTSA?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -124,11 +137,11 @@
       "companies": [
         "samsung_sdi"
       ],
-      "title": "삼성SDI, GM과 차세대 각형 배터리 개발…美 합작공장 단독 거점으로",
-      "source": "ER 이코노믹리뷰",
+      "title": "삼성SDI, GM 합작공장 단독 전환…각형 배터리 개발은 협력",
+      "source": "한국금융신문",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T15:33:51+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91WFdBQTMwbFNCZHdyVjdkODhsWDRnS0VvcldLTkh6SlVtS0lCMll4Z2RwWGRDNXZLUFVNVjgwNnJ1LXBUV0Z1TkxmRm5XQlloMUQ5dVNIVWJNMGRuUElxY0NocjBaOERNdmc2cg?oc=5",
+      "published_at": "2026-08-11T16:29:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JYk1acVhVMDJTdmZqNmpLekFqOGxiNDRvaG5lUmc2eGtXNXE2SW9tUm9jX3dSZkxjdDNWR01weFo2OW9ja3FzTXFsSElMajdsRklfWGRMSEE5SERKNzk4NlRfSTNhdWVxUG8xaFI1emdwcGwyUjRIRWhXRQ?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -137,310 +150,141 @@
       "companies": [
         "samsung_sdi"
       ],
-      "title": "삼성SDI 27GWh 미국공장 새판 짠다, 급성장하는 ESS가 새로운 축",
-      "source": "엠투데이",
+      "title": "삼성SDI, GM과 차세대 전기차 배터리 공동개발…미 단독 배터리 공장 확보",
+      "source": "나눔경제뉴스",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:23:26+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53dmNjTkZHNXdSMjdKdS1HYVE0dGpzMmNkRDI2TUlhdzJIeVBSTE5uSzRVaHhENnBaTko2MFlTeENpcUdMV2RUN2NyXzg1ZzRqZVl1UnBSZ3dRcEZKUmpZUUtaQTE0YnNGQnlFdQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI, GM과 배터리 합작 2년 만에 종료…지분 100% 인수·협력은 계속",
+      "source": "리더스팩트",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:22:58+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DUUdpcUZrN2VQalJvdkpZTHpIdUZsMzB1RTRFWG9EeTBGbTJNb1lrTjRRdFJ5NlFfR3RDY0paMVJwbEZGSWV6Q3JXNVBpcXZfbEhLQzFVNGpqZUJUMjRjaGZ0NGtMUkFsNm9XY3lISGM?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "GM 손잡은 삼성SDI…35억 달러 합작공장 전격 인수한 '숨은 승부수'",
+      "source": "위키트리",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:19:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FbkV2LTVCMmtpUjhZdG5VaW1VeU12LWRBWVRZd3IxYXc1VGVwcy1JVHM5cm9zTEVka0xSbkY0SEI4WDNYZEJlWWxGTVpEM2NqTmIwNFN3?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI, 美 GM과 차세대 각형 배터리 공동개발",
+      "source": "뉴스톱",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:16:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuY2psT2NPWkZGTkMydTZkVVhDWFB0RWpUekx5N0I0X2IyZEtSUEhwakVUQ254MnlnaE9yUzJ0ZlRxUTduZFV3X2hFLXBVejVQRjB5ZUd5aUtPU0RERldDVGltRHRzZzhUbW5LLTNjWQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "비에이치, 삼성전자 휴머노이드 로봇 공급망 진입 기대에 17% 급등",
+      "source": "한국경제",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:10:45+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GN0h0WnBIUGpZZUNVRTBhVGg1OG9ObXRJZlZMUGxhejNKY3ExSnFMd2M3NFNxUmZkT1F1aHlqUWY0d0tGQWdWLTJReUx1MFlldThGckZmODlJUQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자 美 텍사스 공장 지난해 '15조5000억' 경제 효과…일자리 2만8746개 창출",
+      "source": "더구루",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T15:48:42+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53S3RDTWxvZnV2Z1Z1Umh6WHNzbHhHcldDM01PcGs3bG50NUtNbUttU1ZQZ3ZNOW12c2t3TFJoZUpUblZBSXBHUFFCNzVQUGw3ZEZaZmZfWXlnWHgxdWk1ZlpLVQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 7년간 폴더블 기술 담은 '폴더블 헤리티지' 상시 운영",
+      "source": "경기신문",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T15:37:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nRXJEd2lFUnY0SnpreUt0cFpDWGZiMjJTRHJLUFVMb0lvZWg2QkxMYkg1a1dKM1pfRVp6R1VSTjZrNUFrWTRxV09MdTM1XzdTcjgzRGZ5bDFzdkFfSEpCT3FB?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "chosun_refractories"
+      ],
+      "title": "광양시·환경협의회, '클린로드' 운영으로 폭염 대응",
+      "source": "theleader.co.kr",
+      "published": "2026-08-05",
+      "published_at": "2026-08-05T17:22:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TNm4zRE8wZkVUS1RfbEdOWEN5X1NobFRhMzZTUlV0WkVreUxsekhqMEM5LUVERlNWbzFmdjJ0SjdUQ3ZWbUV5Tnp5V21ZVW1HaElPYndrc05xTXBOamhUTVdieWExLV9ZdnNMOA?oc=5",
+      "summary": "",
+      "title_match": false,
+      "window_days": 30
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "현대차 노조, 여름휴가 후 첫 부분파업 예고…누적 파업만 60시간",
+      "source": "조선일보",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:00:29+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WVXNUZko4VlRVc3VLLU11RDFKRXhKbm9UalVyYUZFNkxUMW9zNkRMZGdrbjhSTXRzUV9GZksyNnhMT2xhUlItc0lyWHh5RzFQSTFwd3NzZU5ZZTlGa2hjNGFSMGliNUtIYWVZcGh1Uk9rYmd5WVM3Wll0TWo2U3M?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "현대차 노조, 내일부터 나흘간 부분파업… 수위도 높였다",
+      "source": "Chosunbiz",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T15:59:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrTXcwYWJ5aHM4TnZwWkxiWUxHRk9nMHUzZE5xMHUxOW5iX1QyWlUzd3pBRFBLYVdtTXlFcEp3blFkclN2UDlFcE0tZmV2XzQ4dko5aWkyUzVHdUI2REVMOUxoUmNNOXA2N3ljeWtYWUNnQ2RZY2stdWFIVVlrUGM?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "[기획]테슬라는 쓸어 담은 데이터…현대차는 왜 못했나",
+      "source": "매일일보",
       "published": "2026-08-11",
       "published_at": "2026-08-11T15:30:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fang0aWdiWkMtNzFFalZyRUl2a2twM0pnektBeFF5T2VNanhNQ0pQRWZaOGxyVVAzdDVWSUl5SDhfLVhlbFlNSkRKV18ta0RlRWhTa05PUFZrNTgzcEdlSFZCZ1Npd01tdHJOYy1FQdIBc0FVX3lxTE80VDducDBhWFEyTGFIdGg1cGNNNHpIYWpoSGcxRVcyOHpMU1VuMWJxcGdSMkptYW5ja0xOSTVseEw1a1VkQWNpRmpnekVNNlJtZmtZd3NPYm1VMDVNSi1abk5CcklVY3FJeGhMaS12TkxYLVE?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "삼성SDI, GM과 차세대 배터리 개발…합작법인은 단독 공장으로",
-      "source": "서울신문",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T15:29:19+09:00",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rQV94NmFjamhBdTBfeTBlSTUyaWM1cFFEcmkwNnVsQV96MTVodUNwY1ZWNS1ZN0dGcV9QUTA3YzJHWDVManNGaGtLMVA5SS15NjBCby04eW5kNmpQdFBYOHVmVXpfWmRlbWNTQ1RfRUpYLU9oSFcwQnFKYw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "삼성SDI, GM과 차세대 각형 배터리 개발…합작은 종료",
-      "source": "포쓰저널",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T15:27:32+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MSnNTVkwzbHY1ajhDT3hKU2hHMkktVThjeUxMRUdyQll1RUZRNkdNcFZzemYxTGNwSHBMOV9jVmFKVlVIckZoM3hqcXpETU45SG9pUkU1OUl1NWpoWXBXLUZIaG4?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "삼성SDI, GM과 각형 배터리 공동개발… 북미 단독 거점 확보",
-      "source": "천지일보",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T15:21:39+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRUZFajFYQW05Z05TakFPWDg2dVZiWnJPelhoWVdWSXRiX3cxbjhoQWVkcWFpUENOQXVaQWZRN1BDV2liY19ZUnRkZGE1SmNzR2IyckNVTGI3LUxCdWt6ODh0aHBoTUdqaUE?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "(현장+)“효율·소음·편의성 다 잡았다”…삼성전자 ‘히트펌프’ 전진기지",
-      "source": "뉴스토마토",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:34:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yalR4Qms3QUllVVRBaG56Wi1hQ2Z4MmI5YmNPVklQWnpHR3Joc3N4czZSV0FrZ3BPV3NZT2IyRlRPMWdkaGlwZDdUdFZucU5uOXZoUG05SFJoMUJBR0Fldg?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "삼성전자, '폴더블 헤리티지' 전시",
-      "source": "디일렉",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:21:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pX1RQSXYyNDRpSk1DVXdtMnpnOFpQTHRtV2JMTlhmd2VaOWstN25fdXI5YnUtbmdKRDRJZ2NGaEVMbW9HY0RNSjVWWURyVEwxbHhDVFV4OXJ0dThITVFBcmI3RjlUdw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "삼성전자, 엔비디아 주도 글로벌 AI 보안 연합체 합류",
-      "source": "전자신문",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T13:40:56+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FLUVHTXRRUDdfMzNoVjlZWDdWOHhoRFR5YzNOX1k4XzNPbnJuTnRDa1hsUlZaQUdMTTdGdkhKMTRJZGhFQklSZVpnaDBydw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "삼성전자, 7년 폴더블 혁신 집대성 ‘폴더블 헤리티지’ 전시 공개",
-      "source": "브레이크뉴스",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T13:30:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9qd3RwdmpGNU52cE1lNWtlMllvcVMwaWpyY3FlbzkyblN4cURfVUtsWjU2clJRWnNiNFNxa0FXTzlIUQ?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "chosun_refractories"
-      ],
-      "title": "조선내화 목포공장 사진공모전…복합문화공간 앞둔 마지막 기록",
-      "source": "v.daum.net",
-      "published": "2026-08-04",
-      "published_at": "2026-08-04T13:50:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LSVM1bVNGbUhYdkhGcTNNSFhObWxQMTlnRTVsQ05XcmZCWTJfMTVTYkhzUjRHN3JtLWktai1hLUQ0bGtUSl95VHk1RFpQZzg?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 30
-    },
-    {
-      "companies": [
-        "chosun_refractories"
-      ],
-      "title": "광양시-지가협, 폭염 대응 '클린로드' 운영",
-      "source": "gmitoday.com",
-      "published": "2026-08-06",
-      "published_at": "2026-08-06T07:01:52+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EaUVGajJHRC1QeUJkLWtSV05Eb2xvZ1pia3R5VnpuWDhGNWJjZTV6cmtxR2ZaMWFXM3BYNjMwT3YwTnJxRjdWc05scUt3cUlmLVoyUnFVRm1TbUJ4ZjFTT0p0VFlGTGstR0E?oc=5",
-      "summary": "",
-      "title_match": false,
-      "window_days": 30
-    },
-    {
-      "companies": [
-        "chosun_refractories"
-      ],
-      "title": "“포스코 덕에 생산성 ‘쑥’”…포스코그룹, 협력사 상생으로 지속가능한 성장 그린다",
-      "source": "v.daum.net",
-      "published": "2026-07-16",
-      "published_at": "2026-07-16T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE81VUNxSzMxQXFzMU9LWDQ0RGN5aXlGcENrRnVXSjhpZWtrcy1UODJHNjRkWVpkVnlPYU5vUVQzVHFpa01JZlE?oc=5",
-      "summary": "",
-      "title_match": false,
-      "window_days": 30
-    },
-    {
-      "companies": [
-        "linde_korea"
-      ],
-      "title": "린데코리아, 임직원 참여형 목소리 재능기부 봉사",
-      "source": "가스신문",
-      "published": "2026-06-23",
-      "published_at": "2026-06-23T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yQzhPd1ZreVJRaU9xZjliWGpxS0hSOFRDUzlZZGY0YTRqejR5YlpiOGNvNmdPR2ZEb0daVWozeWZTRTl1VGowNVlhUnBpMVA2eVZsTWxaOUtKVlQ2aGJUNFNwYnhQNlc3M3fSAW5BVV95cUxQQ2stSTAtWjhROF81MUlzRWFORFloeFduTTZjTDYzTkNtdzUwZnRkZEJkX2prUEhkSWNsOXJrSlFKMGd2ekZxb3gtNGdYbnBiOVZMNWcyX2RkRGlCbWltMm9sYk5rNzFBamk4cVRDQQ?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 90
-    },
-    {
-      "companies": [
-        "linde_korea"
-      ],
-      "title": "28개 기업·시민 2439명 뭉쳤다…아동 2818명에게 ‘행복상자’ 전달",
-      "source": "소셜임팩트뉴스",
-      "published": "2026-06-23",
-      "published_at": "2026-06-23T16:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LbWFDMzAzbG9QQkFvRFJ3c1hsSElLbzRZU0dsdV9mX1FEd0ZxcWVXeVhqYUFLWUtxRl9xQ3BtWmRIZFBzWFpVRTFCWXBTeXZQbzdtTDFPbFAwdGllbnJKZXRnQXJNR2RoLTFWbUEyU1RzNEXSAXdBVV95cUxNMS1JOTdZZllodk1PNmlnTTBlMEF5a3o0c0FrbndoNnZDb3l6YWl5TkpTMkItaVRKbXQ4VnBPZ2l1aVhILVhfVTE2N1JLRUw3M0EtRXFMcTNpQlBDcmh2SVMyYmJqbUVqV0JwbURpU0tnLVdRUUF5MA?oc=5",
-      "summary": "",
-      "title_match": false,
-      "window_days": 90
-    },
-    {
-      "companies": [
-        "linde_korea"
-      ],
-      "title": "행복얼라이언스, 결식우려아동 2818명에 4억원 상당 ‘행복상자’ 전달",
-      "source": "에너지경제신문",
-      "published": "2026-06-23",
-      "published_at": "2026-06-23T09:30:32+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kdEtUX3Rkdm1RaWthSkczRy1VWHUzVGYxaWhEV05GZnFxRnRXUWJ4c1ZYNE5wZTZPd25FQk1sX0xWYW9nSV9oOXN1SE1qaDBDUUxCQS1Wb1RNZDQ?oc=5",
-      "summary": "",
-      "title_match": false,
-      "window_days": 90
-    },
-    {
-      "companies": [
-        "oci"
-      ],
-      "title": "美 관세 돌파구 되나…OCI홀딩스, 텍사스 셀 공장 재추진 ‘저울질’",
-      "source": "마이데일리",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T11:15:22+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VTGVyQXQ5YmNIMlhKbFo5dFZ5eTNRckJOMUhmVkxLMXBPN2pWWEc2QU5lTWU2MVhnTWlYZU1zd1JWTmhJZmhtOTNZdUl5ZGZhNUtNQS1taEMxc3BPN0s1VA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "oci"
-      ],
-      "title": "OCI홀딩스, 자사주 신탁 해지 소식에 급등... 주주 기대감↑ : 기업주식정보",
-      "source": "재경일보",
-      "published": "2026-08-10",
-      "published_at": "2026-08-10T16:23:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE85c3FhYUVVdGk1YTZOWWVmRXltb3otcHBUeF92ZmFQNHdvYXZIR3pKU2hUOERlVzdlU18xd19ibVUxOE9tLUo5VUZB?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "oci"
-      ],
-      "title": "OCI홀딩스, 美 태양광 관세 반사이익 기대…\"스페이스X 협력설까지\"",
-      "source": "뉴시스",
-      "published": "2026-08-10",
-      "published_at": "2026-08-10T15:27:16+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SVUJPQ0hTS2ljVlVvenB4TmlMR3VzaWJVVi1ScjBUQ3RGZm5GUEhKTHJvcG5EcUttVjZ1ek5jeFR0QTdGeXB0ZVdSTWFNQU9UZjFCLUhSWWt1dUVvS3FKbdIBeEFVX3lxTE04dmdjSXA3TWNSamNiWU1mMmViZlIzYWtEdEtsbDVwaGp5bDdsa0w0YmZTOVNxb1ZCSkJOZ0RCSy1UZTZZVmNCSmVpZmVXaHZSTk01NlhNU3VYTTY0N3ZsMjl6QlFDZDQwVVR6Qzd0TkhYWFZJdkRHZA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "oci"
-      ],
-      "title": "OCI홀딩스, 자기주식취득 신탁계약 해지…보통주 7만4160주 소각 예정",
-      "source": "디지털투데이",
-      "published": "2026-08-10",
-      "published_at": "2026-08-10T14:53:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DUVR5V1NnTTlkMmoyRWVwQk8tOHdKaHVUQ1lEdFFvTllUU0VSdXotUkoxMmh4QUJUVkQwSHBOYXYtVkZ4UGtFVWd4TU9RMUVaemNpTEVSanVCb3VGam0xcnZpdXUwbFcyMWk5RG9OZVZmWjA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "oci"
-      ],
-      "title": "OCI홀딩스, 스페이스X와 폴리실리콘 장기공급 계약 논의...머스크 태양광 AI 인공위성 가능성",
-      "source": "한국AI부동산신문",
-      "published": "2026-08-10",
-      "published_at": "2026-08-10T13:52:32+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SOFEtcmIwUy1TTjFkODMzN3gwdy1QUGU4RmdkQWs0eXUxYlNJVk5RSEZPYWRDVElQYjJmM2hra1ljYXJvbThDNHRSTjk?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "LG화학, 현대차·LG엔솔 합작사 양극재 공급사로 '낙점'",
-      "source": "디일렉",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T15:19:59+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5McXJEZFA3QVQzcDVHTUJQZjZoMFNZYWxoMGR3cElxMHRQTEJDaklhVlpwSFdfWEY4M2FEbFg0Qm1mS296ZHJselUyejJsTVBKT0Q5YzBERE8wSTByNC1EaGM5bUYxZw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "사령탑 공백에 하투 장기화까지…현대차 ‘한숨’",
-      "source": "뉴스토마토",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:43:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9abkNHQ05CcHlhOVlEcUNHWmdvMVJZUVlIbGlYOFZsMEpjMWxGTEZoTkY0Yno2YzYyV2hYMnFueTlEaEdLUVpUTzlqYzZsSXJTQnlyQmhvY3pGeTZ4SWNQZw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "현대차, 파업 파장 경고…\"실적 악화가 임금·퇴직금 손실로\"",
-      "source": "연합인포맥스",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:35:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kajR4dmNkdDhIOWdTNEZuQUdNUksxNGd0b0xFZXYyTHc1ZU5oQm5HNlVtYVYzOVN5bkdQeDEwc0ZQSnQycmRGN21pcXJIUEFxaU5JN2d3ZVdueXl6VDNUdGpZeXZHVEhCd3lLSE5wXzY?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "BYD, 중국 빼고도 현대차 추월…'내수용 중국차' 공식 깨졌다",
-      "source": "뉴스핌",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:20:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04SmdtbEZDdG9PMmpvSjlZS1MzSVJyc2l4RVBfNjFwdmEyV014b2dNMVRvdWwwRUhPaDdHQVJvYTVQVGNuZHJXa3lYSGNXTHYwUTFHQ3B3VGtZdTJF?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "현대자동차, 시뮬레이션 레이싱 대회 '현대 N 버추얼컵' 개최",
-      "source": "뉴스핌",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T14:18:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iNFlBZHBuZlNfVmszUlZXMnVJYlBYakJDNUtoX1Z3bnc1cEFoSDBVd0xYNU5lZ2lnY1VGbUl3ai1ZOVZ4S29XeGotdEtwMFJBbHBYRUZFejBWdWtz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XamNJTzVGQmtTOVpCcnFNbFVXMklld0FBYjNmWHJ5RWJVckkyVjlubFBwRXVCTzhmWVhISy1wRmNsOFRBYS1yeE5GTnJpY3JUSmduY0pJZzBqWXJ0NFZJUG9HVFo?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
