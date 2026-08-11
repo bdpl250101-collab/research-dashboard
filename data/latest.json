@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:49+09:00",
+  "generated_at": "2026-08-11T16:53+09:00",
   "week": "2026-W33",
   "lookback_days": 7,
   "topic_totals": {
@@ -137,28 +137,6 @@
     },
     {
       "topics": [
-        "electrocatalysis",
-        "oer_her"
-      ],
-      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
-      "authors": [
-        "Xiangyao Gu",
-        "Yaozhong Guo",
-        "Meiping Li",
-        "Tongtong Ye",
-        "Yi Xu",
-        "Changshui Huang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-10",
-      "published_precision": "day",
-      "created": "2026-08-10",
-      "doi": "10.1021/jacs.6c14322",
-      "url": "https://doi.org/10.1021/jacs.6c14322",
-      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
-    },
-    {
-      "topics": [
         "oer_her"
       ],
       "title": "Programmable Vacancy Topology in High-Entropy-Alloy-Inspired Multiprincipal Alloys Directs Ru-Centered Alkaline Hydrogen Evolution",
@@ -187,6 +165,28 @@
       "doi": "10.1021/jacs.6c09149",
       "url": "https://doi.org/10.1021/jacs.6c09149",
       "abstract": "Vacancy topology in multiprincipal alloys provides a controllable handle to tune interfacial reaction pathways, yet practical routes to program vacancies in ultrasmall alloys remain scarce. Here, we report an H2-free, volatility-assisted MOF-to-alloy synthesis in an inert atmosphere that yields sub-4 nm MnFeRuCoNi-based multiprincipal alloy nanoparticles with a Ru-proximal vacancy environment. A closed set of mutually reinforcing measurements─PALS/EPR (defect generation), EXAFS/XPS/XANES (coordination/electronic states), multipressure NAP-XPS (Ru→O(H2O) interfacial charge transfer), REELS/TOF-SIMS (H* and H3O+ intermediates), and in situ Raman (Ru–H vibration)─establishes a causal sequence from programmed vacancy topology to local electron redistribution at Ru, accelerated water activation, and step-specific alkaline-HER kinetics. Density-functional theory with Bader analysis shows reduced electron density at Ru and enhanced Ru→O charge transfer upon H2O adsorption in vacancy-rich environments, consistent with experimental observables. In 1.0 M KOH, the catalyst delivers an overpotential of 13 mV at 10 mA cm–2, a 47 mV dec–1 Tafel slope, and ∼2600 h stability at 100 mA cm–2, rivaling Ru benchmarks and approaching Pt/C under matched protocols. The volatility-assisted MOF-to-alloy route may be extendable to other multiprincipal alloy families containing a sacrificial volatile component, thereby offering a promising strategy for encoding vacancy topology in complex alloys."
+    },
+    {
+      "topics": [
+        "electrocatalysis",
+        "oer_her"
+      ],
+      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
+      "authors": [
+        "Xiangyao Gu",
+        "Yaozhong Guo",
+        "Meiping Li",
+        "Tongtong Ye",
+        "Yi Xu",
+        "Changshui Huang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-10",
+      "published_precision": "day",
+      "created": "2026-08-10",
+      "doi": "10.1021/jacs.6c14322",
+      "url": "https://doi.org/10.1021/jacs.6c14322",
+      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
     },
     {
       "topics": [
@@ -1705,6 +1705,24 @@
     },
     {
       "topics": [
+        "pfas"
+      ],
+      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
+      "authors": [
+        "Junwen Wang",
+        "Pengyuan Zhang",
+        "Benxiang Zhang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-03",
+      "published_precision": "day",
+      "created": "2026-08-04",
+      "doi": "10.1021/jacs.6c06873",
+      "url": "https://doi.org/10.1021/jacs.6c06873",
+      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
+    },
+    {
+      "topics": [
         "organocatalysis"
       ],
       "title": "Atropisomeric Aryl–Hydrazone Frameworks: Discovery and Organocatalytic Enantioselective Construction",
@@ -1725,24 +1743,6 @@
       "doi": "10.1021/jacs.6c12029",
       "url": "https://doi.org/10.1021/jacs.6c12029",
       "abstract": "The expanding utility of axial chirality across the chemical sciences has intensified the search for structurally novel atropisomeric skeletons. Drawing inspiration from the electronic properties of aryl–amides, we have developed a new class of atropisomeric aryl–hydrazone architectures. Their atroposelective construction was accomplished via stereospecific addition of hydrazines to axially chiral vinyl quinone methides, generated in situ from aryl–alkynes under chiral Brønsted acid catalysis. This transformation exhibits remarkable Z/E- and enantioselectivity, along with broad functional group compatibility. The key to overcoming this synthetic challenge lies in the precise enantiocontrol of the transient aryl–enamine species, which subsequently undergoes stereospecific enamine-to-imine tautomerization to afford the Z-configured atropisomers. Furthermore, the chiral Brønsted acid acts as a sophisticated proton shuttle, enabling a privileged pathway for the seamless transfer of stereochemical information while enhancing selectivity through precise spatial discrimination of the enamine conformers. This work not only expands the repertoire of atropisomeric frameworks but also delivers atropisomers with excellent structural and axial stability, positioning them as promising candidates for asymmetric catalysis and materials science."
-    },
-    {
-      "topics": [
-        "pfas"
-      ],
-      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
-      "authors": [
-        "Junwen Wang",
-        "Pengyuan Zhang",
-        "Benxiang Zhang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-03",
-      "published_precision": "day",
-      "created": "2026-08-04",
-      "doi": "10.1021/jacs.6c06873",
-      "url": "https://doi.org/10.1021/jacs.6c06873",
-      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
     },
     {
       "topics": [
@@ -1969,7 +1969,7 @@
         "posco"
       ],
       "title": "플랜트건설노조·포스코, 광양서 첫 상견례…원청교섭 본격 착수",
-      "source": "뉴스핌",
+      "source": "newspim.com",
       "published": "2026-08-11",
       "published_at": "2026-08-11T16:22:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VZWhEY2Z6U2UyZ3V1WUJQVFZJcnh4MWgzb1ZDalR3NE40ZU8yU2xTS3NPb3QzbWxTY2pCNmdNQ0ZmX0NaZDZBc2hKT0llWG55a0lMcW9sYlNEMnp5?oc=5",
@@ -1982,7 +1982,7 @@
         "posco"
       ],
       "title": "블록딜 대신 PRS…포스코홀딩스 '조용한 지분 매각' 왜",
-      "source": "톱데일리",
+      "source": "topdaily.kr",
       "published": "2026-08-11",
       "published_at": "2026-08-11T16:15:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWQUpwU2otS05tMnk0TWlLdnVRVmpmMHJ0Q2ZPN2ZPM2c4cFBPX2FQd2ZxMHZKR2xzOE41UmJQeFdiX19HRjFxSldXYnYxLTRa?oc=5",
@@ -2034,7 +2034,7 @@
         "gscaltex"
       ],
       "title": "GS, 2분기 영업익 1조7174억…GS칼텍스 호실적에 253%↑",
-      "source": "뉴스핌",
+      "source": "newspim.com",
       "published": "2026-08-11",
       "published_at": "2026-08-11T16:33:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBeWNSZEJMakNwdGhWbEtoYk04SWZsM2Qxa1pJdkNlMUtBWGF5d0hjUUNSUF84TVdEUjdTM2VFME5PWHljTjAzemlSMjQ4VHFOcGd2THY0aUwyVWlV?oc=5",
@@ -2086,7 +2086,7 @@
         "gscaltex"
       ],
       "title": "GS 2분기 영업이익 1조7174억으로 253% 급증, GS칼텍스 호조 영향",
-      "source": "비즈니스포스트",
+      "source": "businesspost.co.kr",
       "published": "2026-08-11",
       "published_at": "2026-08-11T16:15:51+09:00",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNaDFYNk91Z0tDOGhxOWdrNmVQZl9wa0xDTnRWa0JSRnlKZDhheWFtanNqVVZQVGw5dXlXLXl6azRYTnlKYlNQRFlkY1hRQVZoUTlwWF9LWVNFQ3h1eTdXNXRrdWN6ZzZoYzVmdVVGMTVyaVU?oc=5",
@@ -2098,11 +2098,11 @@
       "companies": [
         "samsung_sdi"
       ],
-      "title": "삼성SDI, GM 합작법인 지분 전량 인수…북미 첫 단독 공장 확보",
-      "source": "부산일보",
+      "title": "삼성SDI, GM과 차세대 각형 배터리 개발 맞손…북미 단독 생산거점도 확보 추진",
+      "source": "PRESS9",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T16:38:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GTnJOMmt2cmhWbUlOMDBhNXJmcTd5T3ZQWGRncUpQWE9FdzU1LV9JeEJlZGJxelJZVHB2Z1ExeTNMamhhMUl6MTBTb0JEZUlxZUdYWVY4ZzlUakd4RmVXeHR2elRGdTdqdzEtcHdjb1Q4SVFC?oc=5",
+      "published_at": "2026-08-11T16:50:07+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZMkdNV1ZSSk5sTl9nZHFESlpvZmwwTVUxaldXR29LOUtGV3I0Vm9aQkZSd0hRdk1fbmlURjNnZXpOeXRmZE9WcnpOLVRyZldYMHNRMXNIdGZ5bmk2TWdfWkpVZE0?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2138,7 +2138,7 @@
         "samsung_sdi"
       ],
       "title": "삼성SDI, GM 합작공장 단독 전환…각형 배터리 개발은 협력",
-      "source": "한국금융신문",
+      "source": "fntimes.com",
       "published": "2026-08-11",
       "published_at": "2026-08-11T16:29:23+09:00",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JYk1acVhVMDJTdmZqNmpLekFqOGxiNDRvaG5lUmc2eGtXNXE2SW9tUm9jX3dSZkxjdDNWR01weFo2OW9ja3FzTXFsSElMajdsRklfWGRMSEE5SERKNzk4NlRfSTNhdWVxUG8xaFI1emdwcGwyUjRIRWhXRQ?oc=5",
@@ -2202,11 +2202,11 @@
       "companies": [
         "samsung_elec"
       ],
-      "title": "(현장+)“효율·소음·편의성 다 잡았다”…삼성전자 ‘히트펌프’ 전진기지",
-      "source": "뉴스토마토",
+      "title": "삼성전자-하이닉스 HBM4 수율 비등…생산능력 경쟁 '각축전' 돌입",
+      "source": "녹색경제신문",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T14:34:31+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yalR4Qms3QUllVVRBaG56Wi1hQ2Z4MmI5YmNPVklQWnpHR3Joc3N4czZSV0FrZ3BPV3NZT2IyRlRPMWdkaGlwZDdUdFZucU5uOXZoUG05SFJoMUJBR0Fldg?oc=5",
+      "published_at": "2026-08-11T15:25:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qSjJvenJvM3hicGFsREpyTU9IMVluNllxd2Y0U1RuaE9SSW9XOFlsNEF2ZmczUEFaTml4TDh5OUpONElpaW13UUd3N2Y5R01NeWxiS3VzLVlxc25mVUxtTDJjSG1LbC1h?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2215,11 +2215,11 @@
       "companies": [
         "samsung_elec"
       ],
-      "title": "삼성전자, '폴더블 헤리티지' 전시",
-      "source": "디일렉",
+      "title": "(현장+)“효율·소음·편의성 다 잡았다”…삼성전자 ‘히트펌프’ 전진기지",
+      "source": "뉴스토마토",
       "published": "2026-08-11",
-      "published_at": "2026-08-11T14:21:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pX1RQSXYyNDRpSk1DVXdtMnpnOFpQTHRtV2JMTlhmd2VaOWstN25fdXI5YnUtbmdKRDRJZ2NGaEVMbW9HY0RNSjVWWURyVEwxbHhDVFV4OXJ0dThITVFBcmI3RjlUdw?oc=5",
+      "published_at": "2026-08-11T14:34:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yalR4Qms3QUllVVRBaG56Wi1hQ2Z4MmI5YmNPVklQWnpHR3Joc3N4czZSV0FrZ3BPV3NZT2IyRlRPMWdkaGlwZDdUdFZucU5uOXZoUG05SFJoMUJBR0Fldg?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2333,7 +2333,7 @@
         "oci"
       ],
       "title": "OCI홀딩스, 美 태양광 관세 반사이익 기대…\"스페이스X 협력설까지\"",
-      "source": "news.nate.com",
+      "source": "네이트",
       "published": "2026-08-10",
       "published_at": "2026-08-10T15:28:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ueW5jenU3OHZXMlZnYW9PUVFvRzNGSUJZTktROWlTZUZPUEppZ0xrQVNieTBOcDZiaDlyRlJSeWUtUm5KTFdENzFqQ3JFajFsZkZJa2JsZFFYSHF4N2otdndKRC11Q0ZDSlpwSGFR?oc=5",
@@ -2350,6 +2350,19 @@
       "published": "2026-08-10",
       "published_at": "2026-08-10T14:53:01+09:00",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DUVR5V1NnTTlkMmoyRWVwQk8tOHdKaHVUQ1lEdFFvTllUU0VSdXotUkoxMmh4QUJUVkQwSHBOYXYtVkZ4UGtFVWd4TU9RMUVaemNpTEVSanVCb3VGam0xcnZpdXUwbFcyMWk5RG9OZVZmWjA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "도심 라이프 속 다재다능한 타스만의 매력👀 | 영상미디어 | 현대자동차그룹",
+      "source": "Hyundai Motor Group",
+      "published": "2026-08-11",
+      "published_at": "2026-08-11T16:38:21+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2YwaUJQcE9YZGV0ajFWYU5EMjZ4Z3pDbnNfY2k4NnF2REFaN3JCSEFvb0pMenhTWG9NT3ZEN2ljejQ5cUxKZ2toMFdsNnJqT1kxTVEzUHdGWG1WQ0xtS1hfX3NIWDcyUDJpRWlsbEM2Y3Azdlo3RzhmNzlpN3ZzRVRxc2dlTWVPQXBn?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2385,7 +2398,7 @@
         "hyundai_motor"
       ],
       "title": "현대차 노조, 내일부터 나흘간 부분파업… 수위도 높였다",
-      "source": "Chosunbiz",
+      "source": "biz.chosun.com",
       "published": "2026-08-11",
       "published_at": "2026-08-11T15:59:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrTXcwYWJ5aHM4TnZwWkxiWUxHRk9nMHUzZE5xMHUxOW5iX1QyWlUzd3pBRFBLYVdtTXlFcEp3blFkclN2UDlFcE0tZmV2XzQ4dko5aWkyUzVHdUI2REVMOUxoUmNNOXA2N3ljeWtYWUNnQ2RZY2stdWFIVVlrUGM?oc=5",
@@ -2402,19 +2415,6 @@
       "published": "2026-08-11",
       "published_at": "2026-08-11T15:39:56+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UajdkWm1ta1Rwd3VvZHVDNkl0bkdyR0tBZUxCWmQzU2ItQ3lIWnpkMFZRQjEzajNlWXRNdkwtMmhZOXhjblE1UjZIWkUxRUhab1dtbVdPZmJYNllWUzBDaWdWaDByMW9yc0lhctIBckFVX3lxTFBTSWVSaEhfWDRrTFd4YkduSlBaX0d1cUZVQ2dhNGU5M29FUGFfUUxZUjhZUEJBZlRxampYR3QtSWJYNzBPY2swcmptMTkxMVpKVW4wSFBNMVlIeWZtQkotd2tzanpZdkxfenJhSVdDa2FuUQ?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "hyundai_motor"
-      ],
-      "title": "[기획]테슬라는 쓸어 담은 데이터…현대차는 왜 못했나",
-      "source": "매일일보",
-      "published": "2026-08-11",
-      "published_at": "2026-08-11T15:30:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XamNJTzVGQmtTOVpCcnFNbFVXMklld0FBYjNmWHJ5RWJVckkyVjlubFBwRXVCTzhmWVhISy1wRmNsOFRBYS1yeE5GTnJpY3JUSmduY0pJZzBqWXJ0NFZJUG9HVFo?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7

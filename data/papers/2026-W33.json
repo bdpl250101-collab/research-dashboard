@@ -76,28 +76,6 @@
     },
     {
       "topics": [
-        "electrocatalysis",
-        "oer_her"
-      ],
-      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
-      "authors": [
-        "Xiangyao Gu",
-        "Yaozhong Guo",
-        "Meiping Li",
-        "Tongtong Ye",
-        "Yi Xu",
-        "Changshui Huang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-10",
-      "published_precision": "day",
-      "created": "2026-08-10",
-      "doi": "10.1021/jacs.6c14322",
-      "url": "https://doi.org/10.1021/jacs.6c14322",
-      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
-    },
-    {
-      "topics": [
         "oer_her"
       ],
       "title": "Programmable Vacancy Topology in High-Entropy-Alloy-Inspired Multiprincipal Alloys Directs Ru-Centered Alkaline Hydrogen Evolution",
@@ -126,6 +104,28 @@
       "doi": "10.1021/jacs.6c09149",
       "url": "https://doi.org/10.1021/jacs.6c09149",
       "abstract": "Vacancy topology in multiprincipal alloys provides a controllable handle to tune interfacial reaction pathways, yet practical routes to program vacancies in ultrasmall alloys remain scarce. Here, we report an H2-free, volatility-assisted MOF-to-alloy synthesis in an inert atmosphere that yields sub-4 nm MnFeRuCoNi-based multiprincipal alloy nanoparticles with a Ru-proximal vacancy environment. A closed set of mutually reinforcing measurements─PALS/EPR (defect generation), EXAFS/XPS/XANES (coordination/electronic states), multipressure NAP-XPS (Ru→O(H2O) interfacial charge transfer), REELS/TOF-SIMS (H* and H3O+ intermediates), and in situ Raman (Ru–H vibration)─establishes a causal sequence from programmed vacancy topology to local electron redistribution at Ru, accelerated water activation, and step-specific alkaline-HER kinetics. Density-functional theory with Bader analysis shows reduced electron density at Ru and enhanced Ru→O charge transfer upon H2O adsorption in vacancy-rich environments, consistent with experimental observables. In 1.0 M KOH, the catalyst delivers an overpotential of 13 mV at 10 mA cm–2, a 47 mV dec–1 Tafel slope, and ∼2600 h stability at 100 mA cm–2, rivaling Ru benchmarks and approaching Pt/C under matched protocols. The volatility-assisted MOF-to-alloy route may be extendable to other multiprincipal alloy families containing a sacrificial volatile component, thereby offering a promising strategy for encoding vacancy topology in complex alloys."
+    },
+    {
+      "topics": [
+        "electrocatalysis",
+        "oer_her"
+      ],
+      "title": "A Dual-Interlocked Electrocatalyst Design Principle for Durable AEM Water Electrolysis at Industrial Current Densities",
+      "authors": [
+        "Xiangyao Gu",
+        "Yaozhong Guo",
+        "Meiping Li",
+        "Tongtong Ye",
+        "Yi Xu",
+        "Changshui Huang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-10",
+      "published_precision": "day",
+      "created": "2026-08-10",
+      "doi": "10.1021/jacs.6c14322",
+      "url": "https://doi.org/10.1021/jacs.6c14322",
+      "abstract": "Achieving practical anion exchange membrane water electrolysis (AEMWE) requires hydrogen evolution catalysts that remain active and durable at industrially relevant current densities, where vigorous gas evolution accelerates catalytic-site degradation and multiscale interfacial failure. Here, we report a dual-interlocking electrocatalyst interface design method that integrates the current collector, catalyst support, and active sites into a mechanically and electronically coherent architecture to address these issues. A graphdiyne-mediated hierarchical interlock promotes the interpenetrated growth of vacancy-rich distorted NiTe on nickel foam, enabling robust collector–support coupling and low interfacial resistance, while a spatial interlock locally confines ultrasmall Ru clusters within defect-rich NiTe domains through Ru–Ni/Te coordination and defect-mediated confinement, mitigating migration, aggregation, and active-site loss. The catalyst exhibits a low overpotential of 60.5 ± 13.9 mV at −1.0 A cm–2 and operates stably for over 10,000 h and 3500 h at −1.0 and −2.0 A cm–2, respectively, in 1 M KOH. In a practical AEMWE device (80 °C, 4 cm2), the electrolyzer delivers 1.79 V at 3.0 A cm–2, meeting the U.S. DOE 2026 low-temperature electrolysis stack target, and sustains continuous operation for 1,030 h and 4100 h at 1.0 and 2.0 A cm–2, respectively. This work provides a broadly applicable electrode-architecture strategy for stabilizing high-rate gas–liquid–solid electrochemical interfaces through multiscale dual interlocking."
     },
     {
       "topics": [
@@ -1644,6 +1644,24 @@
     },
     {
       "topics": [
+        "pfas"
+      ],
+      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
+      "authors": [
+        "Junwen Wang",
+        "Pengyuan Zhang",
+        "Benxiang Zhang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-03",
+      "published_precision": "day",
+      "created": "2026-08-04",
+      "doi": "10.1021/jacs.6c06873",
+      "url": "https://doi.org/10.1021/jacs.6c06873",
+      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
+    },
+    {
+      "topics": [
         "organocatalysis"
       ],
       "title": "Atropisomeric Aryl–Hydrazone Frameworks: Discovery and Organocatalytic Enantioselective Construction",
@@ -1664,24 +1682,6 @@
       "doi": "10.1021/jacs.6c12029",
       "url": "https://doi.org/10.1021/jacs.6c12029",
       "abstract": "The expanding utility of axial chirality across the chemical sciences has intensified the search for structurally novel atropisomeric skeletons. Drawing inspiration from the electronic properties of aryl–amides, we have developed a new class of atropisomeric aryl–hydrazone architectures. Their atroposelective construction was accomplished via stereospecific addition of hydrazines to axially chiral vinyl quinone methides, generated in situ from aryl–alkynes under chiral Brønsted acid catalysis. This transformation exhibits remarkable Z/E- and enantioselectivity, along with broad functional group compatibility. The key to overcoming this synthetic challenge lies in the precise enantiocontrol of the transient aryl–enamine species, which subsequently undergoes stereospecific enamine-to-imine tautomerization to afford the Z-configured atropisomers. Furthermore, the chiral Brønsted acid acts as a sophisticated proton shuttle, enabling a privileged pathway for the seamless transfer of stereochemical information while enhancing selectivity through precise spatial discrimination of the enamine conformers. This work not only expands the repertoire of atropisomeric frameworks but also delivers atropisomers with excellent structural and axial stability, positioning them as promising candidates for asymmetric catalysis and materials science."
-    },
-    {
-      "topics": [
-        "pfas"
-      ],
-      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
-      "authors": [
-        "Junwen Wang",
-        "Pengyuan Zhang",
-        "Benxiang Zhang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-03",
-      "published_precision": "day",
-      "created": "2026-08-04",
-      "doi": "10.1021/jacs.6c06873",
-      "url": "https://doi.org/10.1021/jacs.6c06873",
-      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
     },
     {
       "topics": [
