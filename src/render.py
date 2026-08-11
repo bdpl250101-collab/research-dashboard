@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone  # noqa: F401 (date: days_until)
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -28,6 +28,7 @@ KST = timezone(timedelta(hours=config.KST_OFFSET_HOURS))
 def build_snapshot(
     papers: list[dict],
     news: list[dict],
+    jobs: list[dict] | None = None,
     *,
     lookback_days: int = config.LOOKBACK_DAYS,
     topic_totals: dict | None = None,
@@ -55,8 +56,15 @@ def build_snapshot(
             {k: c[k] for k in ("key", "label")}
             for c in config.COMPANIES
         ],
+        "job_companies": [
+            {k: c[k] for k in ("key", "label")}
+            for c in config.JOB_COMPANIES
+        ],
+        "deadline_soon_days": config.JOB_DEADLINE_SOON_DAYS,
+        "today": stamp.date().isoformat(),
         "papers": papers,
         "news": news,
+        "jobs": jobs or [],
     }
 
 
@@ -128,6 +136,64 @@ def group_news(snapshot: dict) -> list[dict]:
     return sections
 
 
+def group_jobs(snapshot: dict) -> list[dict]:
+    """기업별 채용 섹션. 마감 임박 순으로 정렬한다.
+
+    논문·뉴스와 달리 정렬 기준이 '최신' 이 아니라 '마감 임박' 이다.
+    지원 마감이 가까운 공고를 놓치는 게 가장 큰 손해이기 때문이다.
+    """
+    labels = {c["key"]: c["label"] for c in snapshot.get("job_companies", [])}
+    today = snapshot.get("today", "")
+    soon = snapshot.get("deadline_soon_days", config.JOB_DEADLINE_SOON_DAYS)
+
+    def sort_key(job: dict) -> tuple[int, str]:
+        return (0, job["deadline"]) if job.get("deadline") else (1, job.get("posted", ""))
+
+    sections = []
+    for company in snapshot.get("job_companies", []):
+        source = [j for j in snapshot.get("jobs", [])
+                  if company["key"] in j.get("companies", [])]
+        source.sort(key=sort_key)
+
+        items = []
+        for job in source:
+            items.append({
+                **job,
+                "days_left": days_until(job.get("deadline", ""), today),
+                "closing_soon": 0 <= (days_until(job.get("deadline", ""), today) or 999) <= soon,
+                "also_in": [labels[k] for k in job.get("companies", [])
+                            if k != company["key"] and k in labels],
+            })
+        sections.append({**company, "count": len(items), "entries": items})
+    return sections
+
+
+def days_until(deadline: str, today: str) -> int | None:
+    """마감까지 남은 일수. 마감일이 없거나 형식이 이상하면 None."""
+    if not deadline or not today:
+        return None
+    try:
+        end = date.fromisoformat(deadline)
+        start = date.fromisoformat(today)
+    except ValueError:
+        return None
+    return (end - start).days
+
+
+def format_deadline(job: dict) -> str:
+    """'D-3' / '오늘 마감' / '상시채용' 형태로."""
+    if not job.get("deadline"):
+        return job.get("close_type") or "상시채용"
+    left = job.get("days_left")
+    if left is None:
+        return job["deadline"]
+    if left < 0:
+        return "마감"
+    if left == 0:
+        return "오늘 마감"
+    return f"D-{left}"
+
+
 def format_published(paper: dict) -> str:
     """출판일 표시. 연도만 등록된 저널은 '2026년'처럼 정밀도에 맞춰 줄인다."""
     published, precision = paper.get("published", ""), paper.get("published_precision")
@@ -161,17 +227,22 @@ def render(
         lstrip_blocks=True,
     )
     env.filters["published"] = format_published
+    env.filters["deadline"] = format_deadline
     template = env.get_template(template_path.name)
 
     paper_sections = group_papers(snapshot)
     news_sections = group_news(snapshot)
+    job_sections = group_jobs(snapshot)
 
     html = template.render(
         snapshot=snapshot,
         paper_sections=paper_sections,
         news_sections=news_sections,
+        job_sections=job_sections,
         paper_total=len(snapshot["papers"]),
         news_total=len(snapshot["news"]),
+        job_total=len(snapshot.get("jobs", [])),
+        job_new_total=sum(1 for j in snapshot.get("jobs", []) if j.get("is_new")),
     )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)

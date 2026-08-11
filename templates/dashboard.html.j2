@@ -22,10 +22,9 @@
     </a>
 
     <nav class="main-nav" aria-label="메인 메뉴">
-      {% for section in paper_sections %}
-      <a href="#topic-{{ section.key }}">{{ section.label }}</a>
-      {% endfor %}
+      <a href="#papers">신규 논문</a>
       <a href="#news">기업 동향</a>
+      <a href="#jobs">채용공고</a>
     </nav>
 
     <button type="button" class="btn btn-secondary btn-sm theme-toggle">다크 모드</button>
@@ -60,10 +59,10 @@
           <strong>{{ news_total }}</strong>
           <span>기업 뉴스</span>
         </a>
-        <div>
-          <strong>{{ snapshot.topics | length }}</strong>
-          <span>연구 주제</span>
-        </div>
+        <a href="#jobs">
+          <strong>{{ job_total }}</strong>
+          <span>채용공고{% if job_new_total %} · 신규 {{ job_new_total }}{% endif %}</span>
+        </a>
       </div>
     </div>
 
@@ -224,6 +223,66 @@
   </div>
 </section>
 
+<section class="section" id="jobs">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker">채용공고</span>
+      <h2>지금 지원 가능한 공고</h2>
+      <p>
+        마감이 가까운 순으로 정렬했습니다. 논문·뉴스와 달리 지난주에 올라온 공고도
+        마감 전이면 계속 표시하고, 새로 올라온 공고에는 신규 표시를 답니다.
+      </p>
+    </div>
+
+    {% if snapshot.jobs %}
+    <div class="card-grid">
+      {% for section in job_sections %}
+      <article class="topic-card company-card" id="job-{{ section.key }}">
+        <header>
+          <span class="icon-wrap">{{ "%02d" | format(loop.index) }}</span>
+          <h3>
+            {{ section.label }}
+            <span class="count">{{ section.count }}건</span>
+          </h3>
+        </header>
+
+        {% if section.entries %}
+        <ul class="items">
+          {% for job in section.entries %}
+          <li>
+            <div class="item">
+              <a class="title" href="{{ job.url }}" target="_blank" rel="noopener">{{ job.title }}</a>
+              <div class="meta">
+                {% if job.company_name %}<span class="journal">{{ job.company_name }}</span>{% endif %}
+                <span class="badge{% if job.closing_soon %} urgent{% endif %}">{{ job | deadline }}</span>
+                {% if job.is_new %}<span class="badge">신규</span>{% endif %}
+                {% if job.deadline %}<span>~{{ job.deadline }}</span>{% endif %}
+              </div>
+              <div class="authors">
+                {% set facts = [job.experience, job.job_type, job.education, job.location] | select | list %}
+                {{ facts | join(' · ') }}
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">진행 중인 공고가 없습니다.</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <article class="topic-card company-card">
+      <p class="empty">
+        채용공고를 아직 수집하지 못했습니다.
+        <code>SARAMIN_API_KEY</code> 를 설정하면 다음 실행부터 표시됩니다.
+      </p>
+    </article>
+    {% endif %}
+  </div>
+</section>
+
 <footer class="footer">
   <div class="container footer-layout">
     <div>
@@ -232,7 +291,7 @@
         Research Weekly
       </a>
       <p class="footer-copy">
-        논문 출처 Crossref · 뉴스 출처 Google News.
+        논문 출처 Crossref · 뉴스 출처 Google News · 채용공고 출처 사람인.
         수집 대상과 키워드는 <code>src/config.py</code> 에서 조정합니다.
       </p>
     </div>

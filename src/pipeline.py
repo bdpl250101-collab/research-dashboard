@@ -20,6 +20,7 @@ import traceback
 from pathlib import Path
 
 from src import config, render
+from src.collectors import jobs as jobs_collector
 from src.collectors import news as news_collector
 from src.collectors import papers as papers_collector
 
@@ -63,6 +64,7 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=config.LOOKBACK_DAYS)
     parser.add_argument("--skip-papers", action="store_true")
     parser.add_argument("--skip-news", action="store_true")
+    parser.add_argument("--skip-jobs", action="store_true")
     parser.add_argument("--render-only", action="store_true",
                         help="수집 없이 기존 latest.json 으로 렌더링만")
     parser.add_argument("--from-archive", action="store_true",
@@ -79,12 +81,13 @@ def main() -> int:
     if args.from_archive:
         papers = _latest_archive(ROOT / config.PAPERS_DIR, "papers")
         news = _latest_archive(ROOT / config.NEWS_DIR, "news")
+        jobs = _latest_archive(ROOT / config.JOBS_DIR, "jobs")
         totals = _latest_archive(ROOT / config.PAPERS_DIR, "topic_totals") or {}
-        snapshot = render.build_snapshot(papers, news, lookback_days=args.days,
+        snapshot = render.build_snapshot(papers, news, jobs, lookback_days=args.days,
                                          topic_totals=totals)
         path = render.write_snapshot(snapshot, ROOT / config.LATEST_SNAPSHOT)
         out = render.render(snapshot_path=path)
-        print(f"아카이브에서 재구성: 논문 {len(papers)}편 / 뉴스 {len(news)}건")
+        print(f"아카이브에서 재구성: 논문 {len(papers)}편 / 뉴스 {len(news)}건 / 공고 {len(jobs)}건")
         print(f"렌더링 완료: {out.relative_to(ROOT)}")
         return 0
 
@@ -122,13 +125,35 @@ def main() -> int:
         )
         ok = ok and good
 
-    snapshot = render.build_snapshot(papers, news, lookback_days=args.days,
+    print("\n" + "=" * 60)
+    print("채용공고 수집")
+    print("=" * 60)
+    if args.skip_jobs:
+        jobs = previous.get("jobs", [])
+        print(f"건너뜀 — 직전 {len(jobs)}건 유지")
+    else:
+        try:
+            jobs = jobs_collector.run(archive=archive)
+        except jobs_collector.MissingKey as exc:
+            # 키가 없는 건 실패가 아니라 미설정 상태다. 종료 코드에 반영하지 않는다.
+            jobs = previous.get("jobs", [])
+            print(f"건너뜀 — {exc}")
+            if jobs:
+                print(f"  직전 {len(jobs)}건 유지")
+        except Exception:                              # noqa: BLE001
+            jobs = previous.get("jobs", [])
+            print(f"\n[error] 채용공고 수집 실패 — 직전 {len(jobs)}건 유지", file=sys.stderr)
+            traceback.print_exc()
+            ok = False
+
+    snapshot = render.build_snapshot(papers, news, jobs, lookback_days=args.days,
                                      topic_totals=totals)
     snapshot_path = render.write_snapshot(snapshot, ROOT / config.LATEST_SNAPSHOT)
     output = render.render(snapshot_path=snapshot_path)
 
     print("\n" + "=" * 60)
-    print(f"스냅샷: {snapshot_path.relative_to(ROOT)}  (논문 {len(papers)}편 / 뉴스 {len(news)}건)")
+    print(f"스냅샷: {snapshot_path.relative_to(ROOT)}  "
+          f"(논문 {len(papers)}편 / 뉴스 {len(news)}건 / 공고 {len(jobs)}건)")
     print(f"대시보드: {output.relative_to(ROOT)}")
     if not ok:
         print("일부 소스 수집에 실패했습니다 (위 로그 참고). 페이지는 생성되었습니다.")

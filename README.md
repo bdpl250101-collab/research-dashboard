@@ -6,6 +6,7 @@
 
 **논문 4개 트랙** — 전기화학 촉매 / 유기 촉매 / PFAS 분해 / OER·HER
 **기업 뉴스 8곳** — POSCO홀딩스, GS칼텍스, 삼성SDI, 삼성전자, 조선내화, 린데코리아, OCI홀딩스, 현대자동차
+**채용공고 17곳** — HD현대, 한화, 현대자동차, 포스코, GS칼텍스, OCI홀딩스, 동서석유화학, 조선내화, LS, 삼성, 고려아연, SK, 현대IHL, 롯데, E1, S-OIL, GS바이오
 
 ## 구조
 
@@ -33,8 +34,9 @@ templates/dashboard.html.j2           대시보드 템플릿
 
 1. 저장소를 GitHub에 push
 2. **Settings → Pages → Source: "Deploy from a branch" → `main` / `/docs`**
-3. (선택) **Settings → Secrets and variables → Actions** 에 `CROSSREF_MAILTO` 등록.
-   Crossref polite pool로 처리돼 응답이 안정적이다. 없어도 동작한다.
+3. **Settings → Secrets and variables → Actions** 에 시크릿 등록
+   - `SARAMIN_API_KEY` — 채용공고 수집에 필요. 없으면 채용 섹션만 비워진다.
+   - `CROSSREF_MAILTO` — (선택) Crossref polite pool. 없어도 동작한다.
 
 이후 매주 월요일 09:00(KST)에 워크플로가 수집 → 렌더링 → 커밋하고,
 `/docs` 변경이 Pages에 자동 반영된다. **Actions 탭 → weekly-update → Run workflow**
@@ -54,10 +56,19 @@ python -m src.pipeline --skip-news            # 논문만 다시 수집
 
 python -m src.collectors.papers --days 7      # 논문만 -> data/papers/YYYY-Www.json
 python -m src.collectors.news --days 7        # 뉴스만 -> data/news/YYYY-Www.json
+python -m src.collectors.jobs                 # 채용만 -> data/jobs/YYYY-Www.json
 
 python tests/test_papers.py                   # 오프라인 테스트
 python tests/test_news.py
+python tests/test_jobs.py
 python tests/test_render.py
+```
+
+채용공고를 쓰려면 키가 필요하다:
+
+```bash
+$env:SARAMIN_API_KEY = "발급받은키"     # PowerShell
+export SARAMIN_API_KEY=발급받은키       # bash
 ```
 
 생성된 `docs/index.html` 은 브라우저로 바로 열어 확인할 수 있다.
@@ -121,6 +132,35 @@ Google News RSS 를 기업별로 조회한다. API 키가 필요 없고 한국�
 (30 → 90 → 180일) 순으로 창을 넓힌다. 린데코리아는 180일에 10건 수준이라
 고정 7일 창으로는 매주 빈 칸이 된다. 아카이브 기준 중복 제거가 있어
 창을 넓혀도 같은 기사가 다시 노출되지는 않는다.
+
+## 채용공고 수집 동작
+
+[사람인 오픈 API](https://oapi.saramin.co.kr) 를 쓴다. 실측해보니 키 없이 실제 공고를
+받을 수 있는 경로가 없었다 — 회사 채용 사이트는 봇 차단(포스코·HD현대)이거나
+JS 렌더링이고, Google News 로는 공고가 아니라 채용 *기사* 가 온다.
+
+`SARAMIN_API_KEY` 환경변수(Actions 에서는 같은 이름의 시크릿)가 필요하다.
+**키가 없으면 채용 수집만 건너뛰고 논문·뉴스는 정상 동작한다.**
+호출은 기업당 1회, 주 17회로 일일 한도(500회)에 여유가 크다.
+
+### 논문·뉴스와 다른 점
+
+채용공고는 '이번 주 신규' 가 아니라 **'지금 지원 가능한가'** 가 핵심이다. 그래서
+
+- 지난주에 이미 본 공고도 **마감 전이면 계속 표시**한다 (중복 제거로 지우지 않는다).
+- 정렬은 최신순이 아니라 **마감 임박순**이다. 상시채용은 뒤로 보낸다.
+- 직전 주차에 없던 공고에는 `신규`, 마감이 `JOB_DEADLINE_SOON_DAYS`(기본 7일)
+  안이면 `D-3` 같은 잔여일과 함께 강조 배지를 단다.
+
+### 회사명 대조
+
+사람인의 `keywords` 는 회사명뿐 아니라 공고 제목·업종·본문까지 훑기 때문에 다른
+회사 공고가 섞여 온다. 등록 회사명(`company.detail.name`)이 별칭과 맞는 것만 남긴다.
+그룹명(`한화`, `삼성`)을 넣으면 계열사가 모두 걸린다.
+
+`LS` `SK` `E1` 처럼 짧은 라틴 별칭은 앞뒤에 라틴 문자·숫자가 없을 때만 인정한다.
+부분 문자열로 찾으면 `TOOLS코리아` 가 `LS` 로 걸리고, `\b` 는 한글이 단어 문자로
+취급돼 `LS전선` 에서 경계가 생기지 않아 쓸 수 없다.
 
 ## 대시보드
 

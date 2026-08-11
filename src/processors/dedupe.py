@@ -121,6 +121,31 @@ def load_seen_news(archive_dir: Path | str, *, exclude: str | None = None) -> se
     return seen
 
 
+def load_seen_job_ids(archive_dir: Path | str, *, exclude: str | None = None) -> set[str]:
+    """직전까지 노출한 채용공고 번호 집합.
+
+    논문·뉴스와 달리 이 집합은 **제외용이 아니라 신규 표시용**이다.
+    채용공고는 마감 전이면 지난 주에 봤더라도 계속 보여줘야 한다.
+    """
+    seen: set[str] = set()
+    directory = Path(archive_dir)
+    if not directory.exists():
+        return seen
+
+    for path in sorted(directory.glob("*.json")):
+        if exclude and path.name == exclude:
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for job in payload.get("jobs", []):
+            job_id = str(job.get("job_id", ""))
+            if job_id:
+                seen.add(job_id)
+    return seen
+
+
 def dedupe_news(records: list[dict], seen_urls: set[str]) -> list[dict]:
     """이전 주차에 이미 나온 기사와 이번 배치 내 중복을 제거한다."""
     fresh: list[dict] = []

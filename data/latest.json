@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T16:53+09:00",
+  "generated_at": "2026-08-11T17:16+09:00",
   "week": "2026-W33",
   "lookback_days": 7,
   "topic_totals": {
@@ -69,6 +69,78 @@
       "label": "현대자동차"
     }
   ],
+  "job_companies": [
+    {
+      "key": "hd_hyundai",
+      "label": "HD현대"
+    },
+    {
+      "key": "hanwha",
+      "label": "한화"
+    },
+    {
+      "key": "hyundai_motor",
+      "label": "현대자동차"
+    },
+    {
+      "key": "posco",
+      "label": "포스코"
+    },
+    {
+      "key": "gscaltex",
+      "label": "GS칼텍스"
+    },
+    {
+      "key": "oci",
+      "label": "OCI홀딩스"
+    },
+    {
+      "key": "tongsuh",
+      "label": "동서석유화학"
+    },
+    {
+      "key": "chosun_refractories",
+      "label": "조선내화"
+    },
+    {
+      "key": "ls",
+      "label": "LS"
+    },
+    {
+      "key": "samsung",
+      "label": "삼성"
+    },
+    {
+      "key": "korea_zinc",
+      "label": "고려아연"
+    },
+    {
+      "key": "sk",
+      "label": "SK"
+    },
+    {
+      "key": "hyundai_ihl",
+      "label": "현대IHL"
+    },
+    {
+      "key": "lotte",
+      "label": "롯데"
+    },
+    {
+      "key": "e1",
+      "label": "E1"
+    },
+    {
+      "key": "s_oil",
+      "label": "S-OIL"
+    },
+    {
+      "key": "gs_bio",
+      "label": "GS바이오"
+    }
+  ],
+  "deadline_soon_days": 7,
+  "today": "2026-08-11",
   "papers": [
     {
       "topics": [
@@ -2419,5 +2491,6 @@
       "title_match": true,
       "window_days": 7
     }
-  ]
+  ],
+  "jobs": []
 }

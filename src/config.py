@@ -203,6 +203,35 @@ COMPANIES: list[dict] = [
 ]
 
 # ---------------------------------------------------------------------------
+# 3-2. 채용공고 대상 기업
+#      뉴스 목록과 겹치지만 목적이 달라 따로 관리한다.
+#      aliases[0] 이 검색어이고, 나머지는 회사명 대조용이다. 그룹명을 넣으면
+#      계열사가 모두 걸린다 (예: '한화' -> 한화솔루션·한화에어로스페이스 …).
+#      'LS' 'SK' 'E1' 처럼 짧은 라틴 문자 별칭은 앞뒤에 라틴 문자·숫자가 붙지
+#      않을 때만 인정한다 (TOOLS 의 'LS' 같은 오탐 방지).
+# ---------------------------------------------------------------------------
+JOB_COMPANIES: list[dict] = [
+    {"key": "hd_hyundai", "label": "HD현대",
+     "aliases": ["HD현대", "HD한국조선해양", "현대중공업", "HD현대오일뱅크"]},
+    {"key": "hanwha", "label": "한화", "aliases": ["한화"]},
+    {"key": "hyundai_motor", "label": "현대자동차", "aliases": ["현대자동차", "현대차"]},
+    {"key": "posco", "label": "포스코", "aliases": ["포스코", "POSCO"]},
+    {"key": "gscaltex", "label": "GS칼텍스", "aliases": ["GS칼텍스", "지에스칼텍스"]},
+    {"key": "oci", "label": "OCI홀딩스", "aliases": ["OCI"]},
+    {"key": "tongsuh", "label": "동서석유화학", "aliases": ["동서석유화학"]},
+    {"key": "chosun_refractories", "label": "조선내화", "aliases": ["조선내화"]},
+    {"key": "ls", "label": "LS", "aliases": ["LS", "엘에스"]},
+    {"key": "samsung", "label": "삼성", "aliases": ["삼성"]},
+    {"key": "korea_zinc", "label": "고려아연", "aliases": ["고려아연"]},
+    {"key": "sk", "label": "SK", "aliases": ["SK", "에스케이"]},
+    {"key": "hyundai_ihl", "label": "현대IHL", "aliases": ["현대IHL", "현대아이에이치엘"]},
+    {"key": "lotte", "label": "롯데", "aliases": ["롯데"]},
+    {"key": "e1", "label": "E1", "aliases": ["E1"]},
+    {"key": "s_oil", "label": "S-OIL", "aliases": ["S-OIL", "에쓰오일", "에스오일"]},
+    {"key": "gs_bio", "label": "GS바이오", "aliases": ["GS바이오"]},
+]
+
+# ---------------------------------------------------------------------------
 # 4. 수집 범위 / 경로
 # ---------------------------------------------------------------------------
 LOOKBACK_DAYS = 7           # 매주 실행 기준 조회 기간
@@ -215,9 +244,12 @@ MAX_NEWS_PER_COMPANY = 5    # 기업당 상한
 # 뒤늦게 색인된 논문이 섞여 들어온다. 출판일이 이보다 오래되면 버린다.
 MAX_AGE_DAYS = 180
 
+MAX_JOBS_PER_COMPANY = 6    # 기업당 상한 (마감 임박 순으로 자름)
+
 DATA_DIR = "data"
 PAPERS_DIR = "data/papers"
 NEWS_DIR = "data/news"
+JOBS_DIR = "data/jobs"
 JOURNAL_CACHE = "data/journals.json"
 LATEST_SNAPSHOT = "data/latest.json"
 OUTPUT_HTML = "docs/index.html"
@@ -258,6 +290,18 @@ MAX_BODY_ONLY_NEWS = 2
 # 자동생성 주가/시황 기사 제외. 관심사는 사업 동향이지 시세가 아니다
 # (실측: OCI홀딩스 상위 5건 중 4건이 '주가, 8월 11일 장중 274,500원 3.51% 하락' 류).
 # 제목 어디에나 있으면 제외하므로, 놓치는 기사가 있으면 항목을 빼면 된다.
+# ---------------------------------------------------------------------------
+# 7. 채용공고 (사람인 오픈 API)
+#    키는 https://oapi.saramin.co.kr 에서 무료 발급. 일 500회 호출 제한이라
+#    기업당 1회씩 17회 쓰는 지금 구성은 여유가 충분하다.
+#    키가 없으면 채용 수집만 건너뛰고 논문·뉴스는 정상 동작한다.
+# ---------------------------------------------------------------------------
+SARAMIN_API = "https://oapi.saramin.co.kr/job-search"
+SARAMIN_COUNT = 110         # 페이지당 최대치
+# 채용공고는 '이번 주 신규' 가 아니라 '지금 지원 가능한가' 가 핵심이라
+# 지난주에 이미 본 공고도 마감 전이면 계속 보여준다. 대신 신규 여부를 표시한다.
+JOB_DEADLINE_SOON_DAYS = 7  # 이 안에 마감이면 '마감 임박' 표시
+
 NEWS_EXCLUDE_TITLE_TERMS: list[str] = [
     "주가", "장중", "상한가", "하한가", "투자분석", "시황", "종목",
     "코스피", "코스닥", "수급", "매수", "매도", "차익실현", "체결강도",

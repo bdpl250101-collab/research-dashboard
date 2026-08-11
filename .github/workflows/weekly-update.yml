@@ -43,6 +43,7 @@ jobs:
         run: |
           python tests/test_papers.py
           python tests/test_news.py
+          python tests/test_jobs.py
           python tests/test_render.py
 
       - name: 수집 + 대시보드 생성
@@ -50,6 +51,8 @@ jobs:
           # Crossref polite pool. 저장소 Settings > Secrets 에 등록하면 쓰인다.
           # 없어도 동작하며, 그 경우 응답이 조금 불안정해질 수 있다.
           CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+          # 사람인 오픈 API 키. 없으면 채용 수집만 건너뛰고 논문·뉴스는 정상 동작한다.
+          SARAMIN_API_KEY: ${{ secrets.SARAMIN_API_KEY }}
         run: python -m src.pipeline --days ${{ github.event.inputs.days || 7 }}
 
       - name: 변경분 커밋
