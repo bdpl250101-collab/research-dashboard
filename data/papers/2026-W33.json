@@ -1531,24 +1531,6 @@
     },
     {
       "topics": [
-        "oer_her"
-      ],
-      "title": "Benchmarking Hydrogen and Oxygen Electrocatalytic Reactions in Acidic and Alkaline Media on Iridium Single-Crystal Surfaces",
-      "authors": [
-        "Kavyasree Anjanarambath",
-        "Kaline Nascimento da Silva",
-        "Pietro Papa Lopes"
-      ],
-      "journal": "ACS Catalysis",
-      "published": "2026-08-03",
-      "published_precision": "day",
-      "created": "2026-08-04",
-      "doi": "10.1021/acscatal.6c02938",
-      "url": "https://doi.org/10.1021/acscatal.6c02938",
-      "abstract": "Material composition, surface structure, adsorbate coverage, electrolyte composition, and pH are all factors that play a critical role in the reactivity of the electrochemical interface. Iridium, despite its importance for energy conversion technologies, remains largely underexplored as an electrocatalyst in its metallic surface state. Here, we benchmark the hydrogen evolution and oxidation reactions (HER/HOR), oxygen reduction reaction (ORR), and hydrogen peroxide reduction reaction (HPRR) on Ir(111), Ir(100), and Ir(110) single crystals in acidic (HClO4) and alkaline (KOH) media using RDE/RRDE methods. Across both pH conditions, all reactions exhibit strong dependency on surface orientation but are not monotonically dependent on surface defects or lower surface site coordination number. For HER/HOR, Ir(111) is the most active facet in both electrolyte media, lowering the water dissociation kinetic barrier more effectively than on Ir(110). In contrast, Ir(110) is the most active for ORR in both pH conditions, whereas selectivity is strongly pH- and potential-dependent. Hydrogen peroxide yields are below 1% in acidic media but rise dramatically in alkaline electrolytes, reaching very high values (&gt;50%) near open-circuit conditions. The impact of co-adsorption between Oad and OHad species shows a strong correlation to H2O2 production in alkaline media, suggesting water bond-breaking kinetics is an important parameter directing ORR selectivity. Additionally, HPRR trends indicate that in acidic media, ORR does not necessarily proceed through H2O2 intermediates, as low HPRR activity is not accompanied by H2O2 accumulation during ORR at E &gt; 0.4 V. In contrast, in alkaline media, H2O2 accumulation correlates with reduced HPRR activity. The influence of surface sites and pH can be rationalized in terms of adsorbate speciation, lateral interactions, and interfacial water dynamics. Our results offer benchmark reactivity data on Ir(hkl) surfaces and across pH that complements literature results on Pt and Au surfaces while solidifying the role of interfacial water processes in determining the functional properties of electrochemical interfaces in aqueous environments."
-    },
-    {
-      "topics": [
         "organocatalysis"
       ],
       "title": "A Highly Enantioselective Oxa−Michael Addition Reaction Catalyzed by Chiral Bifunctional N-Heterocyclic Carbenes",
@@ -1569,6 +1551,24 @@
       "doi": "10.1021/acscatal.6c02698",
       "url": "https://doi.org/10.1021/acscatal.6c02698",
       "abstract": "The development of highly enantioselective oxa‑Michael addition (OMA) reactions has long been a compelling yet unresolved challenge in asymmetric catalysis. Here, we report a highly stereoselective OMA that operates across a structurally diverse set of oximes and enones, enabled by a chiral bifunctional N‑heterocyclic carbene hydrogen‑bond‑donor (NHC−HBD) catalyst. This catalytic platform accommodates a wide range of aryl and alkyl enones as well as diverse aldoximes and ketoximes, delivering the corresponding β‑oxime ketones with consistently high enantioselectivity. The same noncovalent activation framework also enables asymmetric cycloetherification of δ‑ and ε‑hydroxyenones via intramolecular OMA, further expanding the synthetic utility of this noncovalent activation strategy to intramolecular architectures. Complementary computational studies elucidate key intermediates and stereodetermining transition states, providing a clear rationale for the observed selectivity trends. Together, these findings establish a versatile strategy for activating oxygen nucleophiles and represent a significant advance in NHC‑mediated organocatalysis, offering potential opportunities for the development of efficient asymmetric methodologies."
+    },
+    {
+      "topics": [
+        "oer_her"
+      ],
+      "title": "Benchmarking Hydrogen and Oxygen Electrocatalytic Reactions in Acidic and Alkaline Media on Iridium Single-Crystal Surfaces",
+      "authors": [
+        "Kavyasree Anjanarambath",
+        "Kaline Nascimento da Silva",
+        "Pietro Papa Lopes"
+      ],
+      "journal": "ACS Catalysis",
+      "published": "2026-08-03",
+      "published_precision": "day",
+      "created": "2026-08-04",
+      "doi": "10.1021/acscatal.6c02938",
+      "url": "https://doi.org/10.1021/acscatal.6c02938",
+      "abstract": "Material composition, surface structure, adsorbate coverage, electrolyte composition, and pH are all factors that play a critical role in the reactivity of the electrochemical interface. Iridium, despite its importance for energy conversion technologies, remains largely underexplored as an electrocatalyst in its metallic surface state. Here, we benchmark the hydrogen evolution and oxidation reactions (HER/HOR), oxygen reduction reaction (ORR), and hydrogen peroxide reduction reaction (HPRR) on Ir(111), Ir(100), and Ir(110) single crystals in acidic (HClO4) and alkaline (KOH) media using RDE/RRDE methods. Across both pH conditions, all reactions exhibit strong dependency on surface orientation but are not monotonically dependent on surface defects or lower surface site coordination number. For HER/HOR, Ir(111) is the most active facet in both electrolyte media, lowering the water dissociation kinetic barrier more effectively than on Ir(110). In contrast, Ir(110) is the most active for ORR in both pH conditions, whereas selectivity is strongly pH- and potential-dependent. Hydrogen peroxide yields are below 1% in acidic media but rise dramatically in alkaline electrolytes, reaching very high values (&gt;50%) near open-circuit conditions. The impact of co-adsorption between Oad and OHad species shows a strong correlation to H2O2 production in alkaline media, suggesting water bond-breaking kinetics is an important parameter directing ORR selectivity. Additionally, HPRR trends indicate that in acidic media, ORR does not necessarily proceed through H2O2 intermediates, as low HPRR activity is not accompanied by H2O2 accumulation during ORR at E &gt; 0.4 V. In contrast, in alkaline media, H2O2 accumulation correlates with reduced HPRR activity. The influence of surface sites and pH can be rationalized in terms of adsorbate speciation, lateral interactions, and interfacial water dynamics. Our results offer benchmark reactivity data on Ir(hkl) surfaces and across pH that complements literature results on Pt and Au surfaces while solidifying the role of interfacial water processes in determining the functional properties of electrochemical interfaces in aqueous environments."
     },
     {
       "topics": [
@@ -1644,24 +1644,6 @@
     },
     {
       "topics": [
-        "pfas"
-      ],
-      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
-      "authors": [
-        "Junwen Wang",
-        "Pengyuan Zhang",
-        "Benxiang Zhang"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "published": "2026-08-03",
-      "published_precision": "day",
-      "created": "2026-08-04",
-      "doi": "10.1021/jacs.6c06873",
-      "url": "https://doi.org/10.1021/jacs.6c06873",
-      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
-    },
-    {
-      "topics": [
         "organocatalysis"
       ],
       "title": "Atropisomeric Aryl–Hydrazone Frameworks: Discovery and Organocatalytic Enantioselective Construction",
@@ -1682,6 +1664,24 @@
       "doi": "10.1021/jacs.6c12029",
       "url": "https://doi.org/10.1021/jacs.6c12029",
       "abstract": "The expanding utility of axial chirality across the chemical sciences has intensified the search for structurally novel atropisomeric skeletons. Drawing inspiration from the electronic properties of aryl–amides, we have developed a new class of atropisomeric aryl–hydrazone architectures. Their atroposelective construction was accomplished via stereospecific addition of hydrazines to axially chiral vinyl quinone methides, generated in situ from aryl–alkynes under chiral Brønsted acid catalysis. This transformation exhibits remarkable Z/E- and enantioselectivity, along with broad functional group compatibility. The key to overcoming this synthetic challenge lies in the precise enantiocontrol of the transient aryl–enamine species, which subsequently undergoes stereospecific enamine-to-imine tautomerization to afford the Z-configured atropisomers. Furthermore, the chiral Brønsted acid acts as a sophisticated proton shuttle, enabling a privileged pathway for the seamless transfer of stereochemical information while enhancing selectivity through precise spatial discrimination of the enamine conformers. This work not only expands the repertoire of atropisomeric frameworks but also delivers atropisomers with excellent structural and axial stability, positioning them as promising candidates for asymmetric catalysis and materials science."
+    },
+    {
+      "topics": [
+        "pfas"
+      ],
+      "title": "Et3N-Enabled Electrochemical PFAS Defluorination for Scalable Fluoride Recovery",
+      "authors": [
+        "Junwen Wang",
+        "Pengyuan Zhang",
+        "Benxiang Zhang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "published": "2026-08-03",
+      "published_precision": "day",
+      "created": "2026-08-04",
+      "doi": "10.1021/jacs.6c06873",
+      "url": "https://doi.org/10.1021/jacs.6c06873",
+      "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental pollutants, but they also represent a fluorine-rich reservoir, making fluoride recovery from PFAS an attractive and sustainable approach to fluorine reuse. However, methods that enable scalable and high-fluoride recovery from PFAS remain scarce. Here, we report an Et3N-enabled electrochemical strategy for PFAS degradation and fluoride recovery under mild conditions. The introduction of Et3N plays a central role in the system, enabling nearly complete defluorination with high fluoride recovery. In addition, Et3N significantly reduces the sensitivity of the reaction to air and moisture, allowing for simple operation, and it can be readily scaled to the 100 g level. The recovered fluoride can be isolated as LiF, NaF, and KF, and reused in downstream fluorination reactions. These findings establish a practical and scalable electrochemical platform for converting PFAS into synthetically useful fluorine reagents."
     },
     {
       "topics": [
