@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 환경 변수 / 비밀키 (뉴스·논문 API 키)
+.env
+.env.*
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

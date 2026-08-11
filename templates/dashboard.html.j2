@@ -1,0 +1,245 @@
+{# 주간 연구 대시보드 템플릿 — 참조 디자인(MonoSpace)의 구조를 따른다.
+   입력: snapshot, paper_sections, news_sections, paper_total, news_total
+   스타일/스크립트는 docs/assets/ 의 실제 파일을 링크한다 (생성물 아님).
+   섹션 목록 키는 entries 다 — items 로 두면 Jinja 가 dict.items() 로 해석한다. #}
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>주간 연구 대시보드 · {{ snapshot.week }}</title>
+  <meta name="description" content="전기화학 촉매·유기 촉매·PFAS 분해·OER/HER 신규 논문과 국내 기업 동향 주간 요약" />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="#top" class="brand">
+      <span class="brand-icon"><span></span></span>
+      Research Weekly
+    </a>
+
+    <nav class="main-nav" aria-label="메인 메뉴">
+      {% for section in paper_sections %}
+      <a href="#topic-{{ section.key }}">{{ section.label }}</a>
+      {% endfor %}
+      <a href="#news">기업 동향</a>
+    </nav>
+
+    <button type="button" class="btn btn-secondary btn-sm theme-toggle">다크 모드</button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="container hero-layout">
+    <div class="hero-copy">
+      <div class="eyebrow">
+        <span></span>
+        {{ snapshot.week }} · 최근 {{ snapshot.lookback_days }}일
+      </div>
+      <h1>이번 주 연구 동향</h1>
+      <p class="hero-text">
+        지정한 저널의 신규 논문과 국내 기업 소식을 매주 자동으로 모읍니다.
+        논문 {{ paper_total }}편, 뉴스 {{ news_total }}건을 정리했습니다.
+      </p>
+
+      <div class="hero-actions">
+        <input type="search" id="search" class="hero-search"
+               placeholder="제목·저널·매체·저자로 걸러보기 (Esc 초기화)"
+               autocomplete="off" aria-label="논문과 뉴스 검색" />
+      </div>
+
+      <div class="hero-proof">
+        <a href="#papers">
+          <strong>{{ paper_total }}</strong>
+          <span>신규 논문</span>
+        </a>
+        <a href="#news">
+          <strong>{{ news_total }}</strong>
+          <span>기업 뉴스</span>
+        </a>
+        <div>
+          <strong>{{ snapshot.topics | length }}</strong>
+          <span>연구 주제</span>
+        </div>
+      </div>
+    </div>
+
+    <aside class="hero-panel">
+      <div class="summary-card">
+        <div class="panel-top">
+          <div>
+            <span class="label">Weekly Digest</span>
+            <h3>주제별 수집 현황</h3>
+          </div>
+          <span class="status-dot">{{ snapshot.generated_at[:10] }}</span>
+        </div>
+
+        {# 막대는 보조 표현이고, 실제 값은 옆에 숫자로 함께 적는다 #}
+        <div class="topic-bars">
+          {% set most = paper_sections | map(attribute='count') | max %}
+          {% for section in paper_sections %}
+          <a class="topic-bar-row" href="#topic-{{ section.key }}">
+            <span class="name">{{ section.label }}</span>
+            <span class="num">{{ section.count }}편{% if section.truncated %} / {{ section.total }}{% endif %}</span>
+            <span class="track">
+              <span class="fill" style="width: {{ (100 * section.count / most) | round | int if most else 0 }}%"></span>
+            </span>
+          </a>
+          {% endfor %}
+        </div>
+
+        <div class="metric-row">
+          <div>
+            <span class="metric-label">대상 저널</span>
+            <span class="metric-value accent">{{ snapshot.journal_count }}종</span>
+          </div>
+          <div>
+            <span class="metric-label">대상 기업</span>
+            <span class="metric-value">{{ snapshot.companies | length }}곳</span>
+          </div>
+          <div>
+            <span class="metric-label">갱신</span>
+            <span class="metric-value">{{ snapshot.generated_at[5:16] | replace('T', ' ') }}</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<p class="no-results container">검색 결과가 없습니다.</p>
+
+<section class="section tight" id="papers">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker">신규 논문</span>
+      <h2>주제별 최신 연구</h2>
+      <p>Crossref 에 새로 등록된 논문을 주제별로 분류했습니다. 제목을 누르면 원문으로 이동합니다.</p>
+    </div>
+
+    <div class="card-grid">
+      {% for section in paper_sections %}
+      <article class="topic-card" id="topic-{{ section.key }}" data-topic
+               style="--topic-light: {{ section.color }}; --topic-dark: {{ section.color_dark }};">
+        <header>
+          <span class="icon-wrap">{{ "%02d" | format(loop.index) }}</span>
+          <h3>
+            {{ section.label }}
+            {% if section.truncated %}
+            <span class="count warn" title="상한에 걸려 {{ section.truncated }}편은 표시되지 않았습니다. src/config.py 의 MAX_PAPERS_PER_TOPIC 로 조정합니다">총 {{ section.total }}편 중 {{ section.count }}편</span>
+            {% else %}
+            <span class="count">{{ section.count }}편</span>
+            {% endif %}
+          </h3>
+        </header>
+
+        {% if section.entries %}
+        <ul class="items">
+          {% for paper in section.entries %}
+          <li>
+            <div class="item">
+              <a class="title" href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+              <div class="meta">
+                <span class="journal">{{ paper.journal }}</span>
+                {% if paper.published %}<span>{{ paper | published }}</span>{% endif %}
+                {% for label in paper.also_in %}
+                <span class="badge">{{ label }}</span>
+                {% endfor %}
+              </div>
+              {% if paper.authors %}
+              <div class="authors">
+                {{ paper.authors[:3] | join(', ') }}{% if paper.authors | length > 3 %} 외 {{ paper.authors | length - 3 }}명{% endif %}
+              </div>
+              {% endif %}
+              {% if paper.abstract %}
+              <details>
+                <summary>초록 보기</summary>
+                <p class="abstract">{{ paper.abstract }}</p>
+              </details>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">이번 주 신규 논문이 없습니다.</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="news">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-kicker">기업 동향</span>
+      <h2>국내 주요 기업 소식</h2>
+      <p>회사명이 제목에 있는 기사를 우선 배치했습니다. 본문에만 언급된 기사는 따로 표시합니다.</p>
+    </div>
+
+    <div class="card-grid">
+      {% for section in news_sections %}
+      <article class="topic-card company-card" id="company-{{ section.key }}">
+        <header>
+          <span class="icon-wrap">{{ "%02d" | format(loop.index) }}</span>
+          <h3>
+            {{ section.label }}
+            <span class="count">{{ section.count }}건</span>
+          </h3>
+        </header>
+
+        {% if section.entries %}
+        <ul class="items">
+          {% for article in section.entries %}
+          <li>
+            <div class="item">
+              <a class="title" href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a>
+              <div class="meta">
+                {% if article.source %}<span class="journal">{{ article.source }}</span>{% endif %}
+                {% if article.published %}<span>{{ article.published }}</span>{% endif %}
+                {% if not article.title_match %}
+                <span class="badge soft" title="회사명이 제목이 아닌 본문에 언급된 기사입니다">본문 언급</span>
+                {% endif %}
+                {% if article.window_days and article.window_days > snapshot.lookback_days %}
+                <span class="badge soft" title="최근 {{ snapshot.lookback_days }}일 내 기사가 없어 조회 기간을 넓혔습니다">최근 {{ article.window_days }}일</span>
+                {% endif %}
+                {% for label in article.also_in %}
+                <span class="badge">{{ label }}</span>
+                {% endfor %}
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="empty">이번 주 신규 소식이 없습니다.</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-layout">
+    <div>
+      <a href="#top" class="brand footer-brand">
+        <span class="brand-icon"><span></span></span>
+        Research Weekly
+      </a>
+      <p class="footer-copy">
+        논문 출처 Crossref · 뉴스 출처 Google News.
+        수집 대상과 키워드는 <code>src/config.py</code> 에서 조정합니다.
+      </p>
+    </div>
+    <div class="copyright">{{ snapshot.generated_at }} 자동 생성</div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

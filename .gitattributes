@@ -1,0 +1,4 @@
+# 저장소에는 LF로 보관 (GitHub Actions = Linux)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
