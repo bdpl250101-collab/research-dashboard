@@ -1,0 +1,397 @@
+{
+  "collected_at": "2026-08-24",
+  "lookback_days": 7,
+  "count": 30,
+  "news": [
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "포스코이앤씨 '오티에르 반포', 레드닷·K-디자인 어워드 4관왕 쾌거",
+      "source": "한국NGO신문",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T12:14:28+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kWUhkTlg1S0VSTnFMcy1aeE5EX2Zpalpsb1RLdmZ0N0RxXzJibkJIY190c3poR1ZXcUxzRlpaMW9OZHNFOHp2cklGSUxJQ1ItODAzX3RSWEV0cTdfNzR6c09idjV6NHV6?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "매트리스 초격차 노린다…시몬스·포스코·고려제강 맞손",
+      "source": "v.daum.net",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T12:03:18+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyM1B0ZkJYb1dSN3pOQXpCTG4wRU1ZRk5aRjJla1BZNmR0Wkl4RW5nbTZTXzNQenM1MjMyRVVpd2FxTXFnR05iVEF6MmRHcDQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "포스코 특수합금강, 시몬스 침대 스프링으로…고려제강과 공급망 구축",
+      "source": "v.daum.net",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:36:53+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zeFVZT3ROR0RUbDROeDd6MHJRVllIQWNLSV9ZMmxIczFiYWJJMUREUHUwcjlMNVhRajFZMF9ZamI3M0tfNFd2LUJEbnBHYlU?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "포스코이앤씨 ‘오티에르 반포’, 레드닷·K-디자인 어워드 4관왕",
+      "source": "서울경제TV",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:10:55+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxMldlY01idzFETzdySEhyMG9tNXBtTWZPanhvUXRicjFpTFhvQm55c0lmel9FdHhiQTlFbVRVVWFlTlNEcy1aOHRQZjdzX2FrSFBVZVF0MlR1bWpRVmpOOWpsS1A?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "posco"
+      ],
+      "title": "[현장] 시몬스, 포스코·고려제강과 업계 최초 ‘3자 협력’…‘바나듐 포켓스프링’ 차별화",
+      "source": "국토일보",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:58:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mdmg1a1JkS1hGNWdWYlh1NGpTSGtyOVNBZ0I1cmIxellIeFJ4MHYyTjVUME1uWFNzSXFDd3VtN3JueFRZUnEtMFNvb09DbC1tLXJCdjB0UE05VC1PYWhTV21DZw?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "심판 판정 때문에 극대노🔥차노스│GS칼텍스배구 차상현 감독 Sting (c3rGhApU1f)",
+      "source": "Mshale",
+      "published": "2026-08-23",
+      "published_at": "2026-08-23T23:05:53+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wMTVnemZLUFk3NEVKQkk4S0Rzc3dUbHpjeXJWQzlacFFkdXZtdE1EYVZFSWgzcHpLSnlXWUotaVY5UTE2NE5YSEZHQlRiaDdiSUFld2NYdXQxdG8?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "[GS칼텍스배 프로기전] 우세 굳히기",
+      "source": "v.daum.net",
+      "published": "2026-08-23",
+      "published_at": "2026-08-23T17:09:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0xajRqNkE4Q2Zjc3lPRFpLTHBYTG5zOE1oc2xod0xoWGxPREI1OUJzOWs3RkpaUWlLRVdqY0NicF81a1lhWGc?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "칼자루 쥔 차상현 감독! 여자배구 봄배구 향방의 열쇠는 GS칼텍스가 쥐고 있다! 도로공사냐 인삼공사냐? 차상현 감독의 선택은 과연 어떤팀이 될 것인가? Alex Caruso (rGhOdzkYgu)",
+      "source": "Mshale",
+      "published": "2026-08-22",
+      "published_at": "2026-08-22T23:14:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxZFNpX1FlWV84eGkyNVdhYjR2RUh3V2lpckd3VF90VURPZVJ3WHRNX1Y3S1lnNmNHbUxhZkprWkRKV3pscDB0SUwxRkV2ZFRYdGpzbDRqajNrQlE?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "Gs칼텍스 무서운 뒷심…풀세트 경기 '6전 6승' Borsa (2BnjNBhksA)",
+      "source": "Mshale",
+      "published": "2026-08-22",
+      "published_at": "2026-08-22T03:04:39+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1yc0ZaU1NCdVcxRXV0cldPaks3SEZ5VjM2Um5WbW1nVjFMTm16NzM1a0dFeDlmbWUwSDRvZU11aXIxTXdWV3Z4T2lZdEhLMGY2MThKUU1MNWNzSkk?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "[코보티비] GS칼텍스 차상현 감독님 인터뷰의 비밀 Meteo Varese (QYPLpWxFXt)",
+      "source": "Mshale",
+      "published": "2026-08-21",
+      "published_at": "2026-08-21T22:14:39+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zWUoxY0gtNnh4NTFxc01aeTNZVFlZNDBKRGZJQkp3aGtxLXowMU1zSkc2M2ZFRWNRVXV6NGVKZVlQSFdxM1JIdFJhYVNEZXNhTFhYSERPaE1wUDg?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI 거래 보니…삼성디스플레이 몸값 89조",
+      "source": "v.daum.net",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:30:09+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIWW5tenJqUm9BaVRCS0tEc1hoS0hxcDJCU1JYRkF1WUNXTXVUUzVPWlRudmUzSzJHejVkUUgydHFFaFBkclBpa3B5dnNqYnc?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "[특징주] 삼성SDI, 삼성디스플레이 지분 매각에 8%↑…美 ESS 재원 마련",
+      "source": "뉴스웍스",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:31:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Oc1A0OE0zMlQwMzBUZWZIR2d6V1d3Y0tDaXJNb1RTdngxU095ZVRjdlIySmNDaHRtQ3BUZXByMEN0Y2JDNXVfZEEwV191SjVqTjVFRlZQZ3pjMHVhc0E0LVhxN0JnLWVTczhCTEkxZ3ZKckHSAXNBVV95cUxNTnNQNDhNMzJUMDMwVGVmSEdneldXd2NLQ2lyTW9UU3Z4MVNPeWVUY3ZSMkpjQ2h0bUNwVGVwcjBDdGNiQzV1X2RBMFdfdUo1ak41RUZWUGd6YzB1YXNBNC1YcTdCZy1lU3M4QkxJMWd2SnJB?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI 8%대 강세…ESS 기대에 이차전지주 동반 상승",
+      "source": "매일신문",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:17:28+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03ODZRU1FwdUIzLTJCMHNrUWhDc3d3ZTVnVXlzbG1fTVJDY2RYSmtVT0F1bVVwUEJGNGNpVi1zM216QWxkYzkyRkoxbHNtZnh4R01oMGw1NTlCbWJXX29SOE53?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "[특징주] 매각 이슈에 '삼성SDI' 7%대 강세…2차전지·ESS株 동반 상승",
+      "source": "뉴스핌",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T09:58:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NMlVYZXdWQ2hYRGplNUNNUVhOaVllc1BPUVhVZE9mZ1hNWnFQNFBaZEYxZlk0Z0JmUmNjcGhDZl81RVE3S1BEWW5pd3lPR3RkUUFxQVQ3TzY3S1R2?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "[특징주] '삼성D 지분 매각' 삼성SDI, 8%↑…이차전지주도 강세",
+      "source": "연합뉴스",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T09:36:41+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFWk4wSG0zOVJFdzJNOWdnb2YxQ2g5VjJHcnJXUC1TOFhkLWpVc3RtZHk4X1hXQnlUY016NXF4RklDRXNxOEN4MEIwWEdVR0UtM1dUWHVJbE5reGZUVWgxetIBYEFVX3lxTFBFWk4wSG0zOVJFdzJNOWdnb2YxQ2g5VjJHcnJXUC1TOFhkLWpVc3RtZHk4X1hXQnlUY016NXF4RklDRXNxOEN4MEIwWEdVR0UtM1dUWHVJbE5reGZUVWgxeg?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 오전 사이 7% 넘게 급락...환율 1,370원대 진입",
+      "source": "YTN",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T12:02:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02YWdCQVllNlZHdXVyaGtfV1ZXb2w0aHVxbkJXNUNJVGh2cHBTYjFUcXYyd2ljSE1WcXVCYzJSaHdFM1k3RFNjU2hYb2gzbUd0Z250dWJ5cHV2SlIwM0E?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "금융지주 회장 성과보상과 삼성전자 주주환원 논란 등 이시각 주요뉴스",
+      "source": "연합인포맥스",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:35:31+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OdVdjQUdPWHhrMjZ0VzhDVXAwY2xRQTdJVzVKX0Fqb2FXWmx4ZmhGaE9ab0lZS3c2RFlxWHFhM2VGM3NpaEZCMVdtZk1HWGhCS1d6YjF4OXJHU2xKQVZNWTI0andURGU0OHRSOUtSbW_SAXRBVV95cUxNTzBMZUR6VDdRS1VFWHUtRlBtV2NMTGlQZVJUN0c2UFB4azZFc1o2b3hMUkVXUFJETE10UkZrM3pjRkktTWFLMmZLNi04ZWRjOUNZbU4zV0Zhc3FhM1BlNVJGdWJCUXlUZ0d1R19JRjBGTmhjSA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 히트펌프 생산 국내로 이전…9월부터 광주서 양산",
+      "source": "경향신문",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:09:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuUjNCM2Q2X0JqU21zbjJTeTZXZ21JYXdoWWZ2RDVud1lqZ0ZkSGl4b0xWSUpGVVp5ck9CQ0hZdk00NkdHbC1KemV0QzVUdDVGbnhDQ1plWTFaQdIBX0FVX3lxTE5iTHZySU9jR3dtZEhkbXA3NnNaalhfZlZhVXNEeHhfd3V6UzZwWXp1RFpDVnNQcEVjZDYxT0VMWllhNUJVcDJyZWZuTU5KRHMxZ3hyUVZidjZpYkJtSnZZ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 대규모 주주환원 발표...\"장기 복리 투자자산으로 재평가\" By 알파경제 alphabiz",
+      "source": "Investing.com 한국어",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:43:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlTkRkUE9BTjJGV1hiNUhRN0dDYlh4bU9meUxURDV2RTZKQU05RC1OSTRFbS1XTTdrbTdRZnNXTlhvck1GblNWOWRZTF9kVkMyZW9EcEx2MjlsVXN1UGhic2dmV2tPd1pkeENzdmRvbmQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 사상 최대 110조 환원에도 6%대 급락…왜?",
+      "source": "연합인포맥스",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:13:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55Ukl5dnM4enV1cnFNbXhXZ05rR1lSdnBTbTFJR2lkN1ZwUl91Z1FkV28za0FfcXJ0RUF2ZHdjZ0l5SmZkOVJjUF9vaXNHMFo4WUlQd0ltR1dEbDdhdEhaWlNHR0hGS3RGNzF5d2ZUMDA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "chosun_refractories"
+      ],
+      "title": "조선내화, 94억원 규모 중간배당 실시...보통주 1주당 800원 지급",
+      "source": "데이터투자",
+      "published": "2026-06-30",
+      "published_at": "2026-06-30T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WV1pLTlU1Ynpjai1rRVZSZXYxUDgwcHVLeEFfbVpsaDFsd1hpVEZ6T0V6Y29RNmJBenlsYjAxdjNKUS0zdHpUMTFocnk2cnRNMlRTaUZJclNhRjMwNUdjODRoR3c0VGhxTHAyRlF2bFQxZE0?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 90
+    },
+    {
+      "companies": [
+        "chosun_refractories"
+      ],
+      "title": "'포스코 상생협약 체결식'",
+      "source": "뉴시스",
+      "published": "2026-07-16",
+      "published_at": "2026-07-16T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GSUplbFlCSkVXZnF6YmFsTnBEZ1NSQ21uZ2ZVQndXckZRb1RrWVNETUtMTVduLWtla0U4bGVMNU1DOV9McTFpa3hWNDh0Z3VVRVgwOWFibTJjdjVHcE9BWg?oc=5",
+      "summary": "",
+      "title_match": false,
+      "window_days": 90
+    },
+    {
+      "companies": [
+        "chosun_refractories"
+      ],
+      "title": "“포스코 덕에 생산성 ‘쑥’”…포스코그룹, 협력사 상생으로 지속가능한 성장 그린다",
+      "source": "헤럴드경제",
+      "published": "2026-07-16",
+      "published_at": "2026-07-16T16:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ybUNzS0U1NDM5N0llamtROUt2bjBpbEFhMW5Bb0V4cVI4TG1IZVZWVDRKTGhlbFk4ZldVS2d1OHdjbU81RmFaTVFKY29TZ0xVb0NoYnZB?oc=5",
+      "summary": "",
+      "title_match": false,
+      "window_days": 90
+    },
+    {
+      "companies": [
+        "oci"
+      ],
+      "title": "[시선강탈] OCI홀딩스 vs 미래산업 vs 티엘비, 공략법은? - 머니투데이",
+      "source": "머니투데이",
+      "published": "2026-08-20",
+      "published_at": "2026-08-20T07:07:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zX3lvSUNxMUNPc2wwU2FlQUxPMXlRSGM2VGJkSXhKTzd0b251SkNMV1hRRG9XYUlsLU9DQ3Q2NkRTWFdmTWx0SGRUM05yT3pad2RRTS16Uy1qQ29GN1l1UzV0XzlrMFlj0gFuQVVfeXFMTnRnMURJSVpPNmMwS3hzMno3R0RUcUJwVlpkal9yWnVYNUEySHJNSlA0OF94TGc4ZmozQzJ1TjdTUlFEdV9lRzFfazhUWWRjM1dkSzBfTm8tWVZxOVpMYzJEZlBYU3VvcVFnRDU5eVE?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "oci"
+      ],
+      "title": "[시선강탈] OCI홀딩스 vs 미래산업 vs 티엘비, 공략법은?",
+      "source": "v.daum.net",
+      "published": "2026-08-20",
+      "published_at": "2026-08-20T07:03:56+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IdHB3a2k1eUl3OUVTSlg2YjVTNU5QbW5ELWlDdWZ2TlNEVTkwQ2pjdnY5QU1Jb19OZDBsS2hjM0JSeVI2WnlmODY1QQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "“만져봐 느껴봐”… 현대차, ‘한국판 체험과학관’ 만든다",
+      "source": "문화일보",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T11:58:23+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FS1lTcnhpUnNZdW1udlc4NzZTNXA2eDA0dTF4MlJBQnE2dVRxYy1nbHc0UExpQ0pTcFR6SWF5c2ZkbDNaVXRqME5ycnhZVkw3?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "\"인재 지속 발굴\"…현대차, 9월1일부터 하반기 신입 채용 돌입",
+      "source": "녹색경제신문",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:24:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tQ1hyLTJkR3htZUkzRHJJSi02MGxLV2MycFBsTnlvM2xtYVAtbUYybC1ZMXFEWjlFYXRFLVoxcVZfSEZVcDcxZGJPNXhwbEh0aVM0RndSMGN0amFjTHVybk1VbVBxLW1U?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "현대차, 9월 대규모 신입 채용…“우수 인재는 슈퍼패스로 서류 면제”",
+      "source": "경향신문",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T10:08:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vVC1FZ3dGb1hpS2hxZXBOQVc0dFd4UWR6S2xiNVRFbzQ3QnN4MmFodURrYXhlVXdCdHM5azVwZm9xcWRQSVRFVUdKZmNBM1pUMlFyaU9HOXNUd9IBX0FVX3lxTE5MaEU0TVBiemVxRThXQVI0MTAwS1RDRllGUm9lOTlmUjIwWWFuNUtXRkJvZWRTNmZ3ekVBYTRWeGhxeTlHUXV6MEV5dXp1VkVIcUdMeUlTTVplVDNzYmI4?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "2026 Kia Collection : Designed to Move You | Shorts | 영상미디어 | 현대자동차그룹",
+      "source": "Hyundai Motor Group",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T09:56:10+09:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONDR6dE9DallYYlpKbUtNMUN1QUF3QVJSMWxxT1BiRnNOWTNURDFGTURqRVczYVFsYVA5Y292TFVDMGhTb3VrR0RPZ29oc0tYM2x5d0htM3VIa181bmFWQ2N0d3hmYmNWdVFuV1U5THY4R1BNMHl3MXpWZGI4bmpYTlBXSTV1Q05rcEc3RW55c2w?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "hyundai_motor"
+      ],
+      "title": "현대차 채용공고 92개 올라왔다…9월 대규모 신입 채용 실시",
+      "source": "연합인포맥스",
+      "published": "2026-08-24",
+      "published_at": "2026-08-24T09:53:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rd1htbmR4Z2J3ME1aMFlTT0JSNnJKZWFxTVlpal9ickZOZmp0RGVsUU4xUzVDQktVMlRwNFFELUp1YmZTa2xIcmFhY3M5SmVxakhHdmNmVzJwTmNRNTZuSzFKWHZnOU1FSnJBVzd2LVo?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    }
+  ]
+}
