@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:25+09:00",
+  "generated_at": "2026-09-20T16:31+09:00",
   "week": "2026-W38",
   "lookback_days": 7,
   "topic_totals": {
@@ -67,6 +67,10 @@
     {
       "key": "hyundai_motor",
       "label": "현대자동차"
+    },
+    {
+      "key": "sk_group",
+      "label": "SK그룹"
     }
   ],
   "job_companies": [
@@ -1769,11 +1773,11 @@
       "companies": [
         "posco"
       ],
-      "title": "N% 성과급 ‘불법성 파업’ 확산… 이번주 HD현중·포스코 재개",
-      "source": "문화일보",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:48:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iT3BNLU5KeWZyWGkxNFk0WExIdFBoeGhSSlc3ci1vMWtNTW5YWDNfZ2ZoZGg3cHFxSFhzOXJBWHMxckNQY2xnSmtEN2Uxd2JM?oc=5",
+      "title": "포스코 2차 부분파업 확대…포항 각계 “지역경제 위해 대화 나서야”",
+      "source": "v.daum.net",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T12:10:05+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tNi1YSEJQaExwZnhONmFTYmYxQjlqc1FrVk1FVFZ4Z1l5eTROck9xb2hnZWpQa0oyTTY5NFNxdF9QUE8tc2phU2tuY1V3c1k?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -1782,11 +1786,11 @@
       "companies": [
         "posco"
       ],
-      "title": "포스코그룹, 기후산업박람회서 탈탄소 기술 전시…동남권 K-GX 구상 제시",
+      "title": "포스코, 브라질 자회사 파산 책임확대 결정에 공식 항고",
       "source": "글로벌이코노믹",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:43:35+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONlN1TlFtTkRmSkFoNWczVFpNNlRDN0FMa1lkNTM0SDFjNVJDeUZEQnhGSnZZMDc4NVNSSjRaRGp3VnBabXBPZXhZN0lITzVqaDJ1WHlNQk80ZHRqNVhscnhKS3pFUldNVUl4M1JrOGxxb0xBZElicXFSbVF4QnJjQ1NXZ2R1UQ?oc=5",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T10:14:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGVLVWNwWk9jZXkwSE45cmpKWEdEZTJlMVlic3QzN0JRVzR5N2ozX1NoSDRIWkc1aGZfby11WW9KbFEwbnhHZE5sN2tPNGhLMTNzV1N1czNrdHhLZWN2MjdpZnE1QlVxOC1BODZZZ1BNTkpMMDByMFpyMTlLTWdBUlZyeWJjREln?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -1795,11 +1799,11 @@
       "companies": [
         "posco"
       ],
-      "title": "포스코그룹, 기후산업국제박람회서 '탈탄소 혁신 기술' 선보여",
-      "source": "뉴스핌",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:27:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45Ql9aWVNzcE1tMHhFVC01SzE3S2Z5QVZZREk0QWlMNWdyNVRkSzE1cnBCTU1vWC16MVRRTThGVDE0bEVOZGRRSUI5dV8zNmxKbDVtbUJ1ai1ZRGZv?oc=5",
+      "title": "'창사 첫 파업' 사측과 골프?…삼성·포스코 노조 '위원장 리스크'",
+      "source": "한국경제",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T08:20:54+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pTU1sNUtRNl9tQklEMkdfSTlWc013Sk5EeWltOEVOM0tYbldCc0xtT0Y0SXpGTWl5dnVpVENUb3NqdWpBdlJNU2lEbF9wZFl3Tkh4RW1qaVBGdw?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -1808,206 +1812,141 @@
       "companies": [
         "posco"
       ],
-      "title": "포스코그룹, 2026 기후산업국제박람회서 탈탄소 혁신기술 공개",
-      "source": "비즈니스포스트",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T10:59:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5XYVgwVEV4YmJncnRfQWo2ZTB2MDQ3NFV3U0ZNN3JXRnRnUnNRUG5YLXQ5RjktckpzakRCTVRBd0RQSDV1dWNjNGVBTDJaaVBWQ3Bza0p0V0pvNk5YalhhdlBHVFZtQWpOSFJaM1FYbXdSc1k?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "posco"
-      ],
-      "title": "\"수소환원제철부터 K-GX 비전까지\"…포스코그룹, 기후산업국제박람회서 탈탄소 기술 공개",
-      "source": "ddaily.co.kr",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T10:51:27+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MOXNMWGh1RWN2OVEtbE1MV2tsSEhSZWRZT294U2NtTmxsSjdQNHpNbDJ5MzFLemhnREdmT1ViaEtuVzMzYjd2STVGTjVyWkwtaGQ1OEpURnRycG0wM21nV01EaE8?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "gscaltex"
-      ],
-      "title": "GS칼텍스, 새롬교실 운영하며 청소년 진로·정서 성장 지원",
-      "source": "국민일보",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T10:37:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeXB2ZHBvNXNySGpwRENXX0tNWS13V05iaU55VzBYcmwyUGt2bWNhNlk3SkNJeWlTNDdSdnBXSWhEMU9iV1NROUhZdmdkYThuLXRrVm5qU0hRSTNsaWtudFgxbXA4MlF3SDJfcXBtU0g0Wk16c0t2YmQ0dDU3dW9Xc09aSUhNd9IBbEFVX3lxTE9zU21xNWlJSV9PdTgyTndfd2RfQWpzMDBoMlVqbzNFSlhZNFJGQUVWV3V1OWtKR0YteGhDeGlhc19BZ190ODFWdUNmSlFzQ2NvMF96ZHdWUjNVckd1TWlJOGRIVjJ1cWctM2dhdQ?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "gscaltex"
-      ],
-      "title": "GS칼텍스 ‘새롬교실’ 9년간 청소년 270여 명 성장 지원",
-      "source": "남도일보",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T17:59:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91ODZhdDJUeHFCMTk1UUdPZEZOeTJRenZvckRTcEFHLXZXb2lzYTgtQnlEYVdISHhyOHo0cnNjRmRYa0ZjbllWTkhRcm1LaEFnRFB1YUE1eWdvZTBHRDBBV1ZWdUY2V3F6dklqendKWHrSAXBBVV95cUxPdTg2YXQyVHhxQjE5NVFHT2RGTnkyUXp2b3JEU3BBRy12V29pc2E4LUJ5RGFXSEh4cjh6NHJzY0ZkWGtGY25ZVk5IUXJtS2hBZ0RQdWFBNXlnb2UwR0QwQVdWVnVGNldxenZJanp3Slh6?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "gscaltex"
-      ],
-      "title": "안혜진 이탈-박사랑과의 세터 경쟁 심화…새 시즌 준비하는 GS칼텍스 김지원 “플레이가 다양해졌다는말 듣고 싶어요...",
-      "source": "스포츠경향",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T14:08:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nNzVnWUdvaWlmemQwXzZiTUhJRnlkdzFER1RUaHBSeVphQld3d1VJVElIZnB2WTNRV0h1eFBYaG1Rb0VORktvQ1Q5YWUtOWdlUVZ3QXM5dWx1RF96bmfSAWNBVV95cUxOZTBxcVJGT2dvOE5qNVo5a3duZjdHb1FtMkdta0liNWlBNVhvWkQ4dEl2T0VoTnJqS2RrSVd5MkVfRkpHR1BYUC1MMmxwOEI2Q1FnSm1MVzV6azZuMnBUV1J6M2s?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "gscaltex"
-      ],
-      "title": "새 공격 활로 찾는 GS칼텍스 오세연 \"실바만 따라가기 어렵게 할 것\"",
-      "source": "뉴시스",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T14:03:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kaXlUNTNDQzVzNjRfSnZ0LWtpZG5oTWpKLVM0N1JUbnRFS2J2bjhmbzRtNXRoVWZuR2xwYWQwNWQxbGNsUVExNmdZQUdhUzZ1cXN2YU4xaDVHWTFSODFqTdIBeEFVX3lxTE5zYkFKd3YyLW04WHpTOEQ4N29uTjdZTmtxY3M5UlNBbXhIMVhQSkFMOXp2RnBoOUxRNDl6bHBtOEppZjhyRjE4dld6ZHFNYUNKY0hGbHU0NTJiMGg3YjFybVVsTV9ScHdQUkZCRmd5ZkpnMEY5bTJvSw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "gscaltex"
-      ],
-      "title": "‘실바 의존도 분산’ 노린 GS칼텍스, 김지원·오세연 역할 강화",
-      "source": "톱스타뉴스",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T12:33:39+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jQjA4WFVKY1V6M0ZZX0k1Tjh0SkxUQjZuMjl0aU1RUGZhS1doc09PbnVXbUVXX3QyOVJrSkRPdXJERUV5dUF3aXNLSDR0ay1kOEtTaVJzOFp5aElXcGRMUUhZVmp3dndlXzA1Si04a3I3QQ?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "LG엔솔·삼성SDI 만난 美미시간 주지사…“韓과 차세대 기술 개발”",
-      "source": "헤럴드경제",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHSFQwZ1FRRE9FYy1OMzg1Z2NoRnRqLU9panlOZ2hOS1VHaUVFTW5ERGY3cTZ2QkFGRUI0dzBBalFwU1IxcVJrTU9KNnNJc21vaTEtV2ln?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "[Z-스코어 기업가치 바로 보기] 차입이냐 자기자본이냐…LG엔솔 vs 삼성SDI ‘명암ʼ",
-      "source": "한국금융신문",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T00:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41Z2E1NnJ2S1lGejlPWHhJVHpJdl9NZ3hMNmNXWUFDMUp4SkN4VUlmV2dTOGJSM1BNamxVM2F4WFZSOEpWMjRxNVhrNFB0VnlSdjF0M1lkMVRVX1RteFlOcmtiT0k0Q19IczJNdWxuSlgwZWk0SzhnMlVGN3k?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "전고체 상용화 속도전…삼성SDI·CATL 앞서고 파나소닉 추격",
-      "source": "메트로신문",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T15:50:52+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SUFFwazBFR0UyVjJYejhNcHBRU1BjUFlPRE41dU1SRkUwUF9yS3hOZFF0ZWY1aVhOTVMxZmNfWmp0SkZfeHY2YndHc045WC1zU3RES3gzdmRtVVFnQXVOMw?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "전고체 배터리 승부는 ‘전해질’⋯삼성SDI가 주목한 황화물계",
-      "source": "엠투데이",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T14:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3enRvLUlxLUxHbnk0MndVTDJITkM2NDRma1pWSUFpNEQ4OXBOUWdvbE5EUUU1RHVoblkzWk92M0tXTFZEaXNhbE83bmMwMUlPcmVfTS1QcUtsRXlqQWlDY3NQRGUxYVZtbWpNTFNzOA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_sdi"
-      ],
-      "title": "테슬라 메가팩 증설 '훈풍'…LG엔솔·삼성SDI, 북미 ESS로 성장 축 이동",
+      "title": "삼성전자·포스코 노조 '휘청'…갈등 뇌관 '노조위원장 논란'",
       "source": "v.daum.net",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T09:52:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16UlJjSXNEMlJzeVVfQldhMXp6and5U1ViaXFNM3RheDBhdFhiLXRPUHVFTUdZNHB0dUNyN0hlY0VhUzhFcnc0RUVhbGhzT2M?oc=5",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T07:01:38+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5qTFFmTjV5R2lpMS0yWTNHeWdTMmhiX2J6TVlQX1lHVUhVX3Bsc3ZvQ19MZE5MZ2NYMFYtQzhGY3psN3hObHc?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
     },
     {
       "companies": [
-        "samsung_elec"
+        "posco"
       ],
-      "title": "[현장의 시각] ‘더 좋은 갤럭시’에 집중한 삼성전자, 스마트폰 성장 공식 재설계 나서야 - 조선비즈",
-      "source": "Chosunbiz",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:35:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR0Qza195LWRxb09XYXJ6NklkRVdPN1lScmd6c2VNejRhdHlFU2c5QXlNMTJJdmhmb0phcUlzWTZEV0RKaDRxNjJPOEp1Tkl4ZVVTZl91ZFJiVlRQRENsTnlzU0FwUXBZcmFLWUd0SDF3ZTFkdk1xWmtpNWNxd1dzOHpWZk1BVjk0SG1B0gGfAUFVX3lxTE0yNlFLaEpNOGlmblRXUjFzYVYxS3lWMUNtT0dzcEcxbDlvYjNIZGtwUFJxZkluWEFET3BkSWZRRnJsblpETnBUQ0M1MDd5WGJfanY3X1pLcDVpd1JpQXVSeGVyS1ZSc0hIbWxBNTQ4VDJ4XzJsb2twZmF4V1BnNlBBMVNPU29WUDh4cWtTay1pT2ozUl9acm04YkUzODd4QQ?oc=5",
+      "title": "[단독] 브라질 파산법원, 포스코홀딩스도 피고로 추가…검찰은 '증언 포기 대가 3억원대 제안' 수사 검토 요청",
+      "source": "뉴스필드",
+      "published": "2026-09-19",
+      "published_at": "2026-09-19T17:51:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNSTlTcjg4TVM2RTR2eG9EcmJnclNfSDJ2TVhwY3BkeW1abHFId0E2M21GclpOa0U3WnhXamVtek5ZQVNkQUh5VlZ1ZFltWktaem1GWGxFZFlrcTFGamVuRGlIRkl3T1VHNlIxU1pxZFhVVC1YZ19hc05oRk4xZU5TcUxEX2lsbXpzbDNkTGxuLV9WRllRaU52VEF3bFpjTy1LUUpJWVVBc1FiVmtYakVTWjlJcFk5YkFkdDJYYS1XV0phMXFzZE1sUkFkU2VfUkdJTC16aWdydmh4NmZGRWpvV1FlMjQybk5FNkpGX3Q1NURnNkI0YVRNN0ZrMXBmWHFzeE82bHJlQ2dDNUs0LXlZcVQ3N2ktenZsaVRlR0w1X1phanI5S1VsZ0xCN0JoQjlMRzZISk9WTE9PX0dHTEE?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
     },
     {
       "companies": [
-        "samsung_elec"
+        "gscaltex"
       ],
-      "title": "“전기료 25조 미리 내달라”…삼성전자·SK하이닉스, 한전 제안 거절",
-      "source": "문화일보",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:29:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yb2JCcmxzdDkxZ0RyaEJ6QmVKR1RVMDNRekZUSEtpZS1PUVRPYlFOYXJFYjB3V2ZPa3FJZ3dnTGVhZzR2ZHBfaW52bE5UVGNX?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "한전 ‘전기료 25조 선납’ 무산…삼성전자·SK하이닉스 모두 거절",
-      "source": "전기신문",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:19:34+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GaGN1WTdDdDdVM2JGcVRKenZpWjJyLS1kc29RUWlfY2U0MGlkalZEQ3puQ0tqb1VESjdscmFnYjNWWFFTaDY2N2RnUXpMQ3pHQ3o0RmozbkRTXzFYUHNaYjZ2a2wybHk4cTFsadIBcEFVX3lxTFBYbXRCTUc3VlJwdlNkTTZWWlB1VUEta0RaUUE5QzlyZGZFNmlBSE04WG1JVklYMV91bVVLOFdseFRocjFjeG9XdHV4TTFSSXdrSE02a2Fxb2hXUlVxbHJrZU81eWRkTEVwX0o1UmFqNFA?oc=5",
-      "summary": "",
-      "title_match": true,
-      "window_days": 7
-    },
-    {
-      "companies": [
-        "samsung_elec"
-      ],
-      "title": "시간 촉박해 위원장 장인 업체에 주문?… 삼성전자 최대노조 해명에 직원들 반응 ‘싸늘’",
+      "title": "[GS칼텍스배 프로기전] 속이 탄다",
       "source": "v.daum.net",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:05:11+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UYzk4VUJFRnZqYXBsdnV0T2FlLWtNTVZ2bVZLb0J0bTJHNHY1ZGhtYzQ2T002anBwNDRDSEpaTzU2Rkl5c1RVWWQxTGZ2M2s?oc=5",
+      "published": "2026-09-17",
+      "published_at": "2026-09-17T17:45:13+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5HenZuVmFBYkU4MmlsVGFOOURxd2ZzdDRScWZOV1NiR2dQV3pGSDYxSGlaQ29NWDBvQnVHSXNPOWxCM2lsSFE?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "여수시·GS칼텍스 ‘한가위 사랑의 온정 나누기’ 22년째 이어져",
+      "source": "서울일보",
+      "published": "2026-09-17",
+      "published_at": "2026-09-17T16:56:35+09:00",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5GLTNlZTNNRFVrc1dQVlYwMkdNc19jTndKdENfc0prTmF1OFZUa2ZnUFZFaXNzb3pQRGszYnNjbmwtWk5pZ2FGdFZreWF1NnpQb01TSkQ0aXFtdjhKVWpYd2NqcExrcUhkS0dj0gFvQVVfeXFMTnBDODh3V21rN0MxV0pET2N0M0QxYnNYUV9CQTBsRGNwNXlZYlNsbkpfR1JpMmU3R25LcHFnR1N3eDVERXgzQTlDMDR2OGFXTzNfQTYzX2lqTkI1eWhpM3ZCU3pMYkNuMzNDUEZCS2Jn?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "GS칼텍스, 여수 이웃에 1억3000만원 나눔…22년째 이어진 ‘한가위 온정’",
+      "source": "화이트페이퍼",
+      "published": "2026-09-17",
+      "published_at": "2026-09-17T12:07:24+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ic19FZXJvM0ZsV1JyQmUxcHFsSXp1d1NVZ09ZZ3ZuSDJ1a1FVR2pYUFRhSVFSdUQySXgyWG1EbUVBbTRGUmszNlBLeUFoc1RaQlRFLXNMV0R5Q3ZHbW95bW85eHFGeU1LbmZSTElubm04ZnfSAXNBVV95cUxOYnNfRWVybzNGbFdSckJlMXBxbEl6dXdTVWdPWWd2bkgydWtRVUdqWFBUYUlRUnVEMkl4MlhtRG1FQW00RlJrMzZQS3lBaHNUWkJURS1zTFdEeUN2R21veW1vOXhxRnlNS25mUkxJbm5tOGZ3?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "GS칼텍스, 여수 취약계층에 1억3000만원 추석 물품 전달",
+      "source": "매일일보",
+      "published": "2026-09-17",
+      "published_at": "2026-09-17T09:34:52+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTW13UnNLSVA1cnMwcExfdnVBdFFGaGt0Z0wtR0YzcmZmTzBIZ2dLM205LWRCdjdvQ3JOYm5jcVdNZEhkcldhdjlDNkNscnlLYzRfT1pDTmVCdUVwMGRVcjVQUFg?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "gscaltex"
+      ],
+      "title": "여수시·GS칼텍스, 22년째 이어온 한가위 나눔…1억3천만원 온정",
+      "source": "광주in",
+      "published": "2026-09-16",
+      "published_at": "2026-09-16T21:27:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92Yjc5a25oTTVfNXFMZTFuckdlMWV1YjFoMVYwWXhrRHcwNjJ2eElxNVF3ZnhGSEUtUXpOZC1uSE56RFJERE5ZMTNQTGRYQjJrZ0xESFY1Q3ZfYXhXUkxqem54SUcxSnFuSHhzeQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "“삼성SDI 지금 들어가야?”...국내 주식 유망주 더 있다",
+      "source": "v.daum.net",
+      "published": "2026-09-19",
+      "published_at": "2026-09-19T21:00:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRTlJIblY3aldwalZCLUp3YnZCdzZwUl9XaWQ5OExxTmNiLWZnS3k3dHVlczJESVBzMjhVTVBDVEpqN1U0S3Jtd213RHQ2b191aUg3UQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "[증권言言] NH투자증권 \"삼성SDI, 각형·원통형 선호에 합당한 리레이팅\"",
+      "source": "마일드경제",
+      "published": "2026-09-19",
+      "published_at": "2026-09-19T16:03:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GV0QzTlVVNlo1ckpZOHVLcHhuQjZmdUd0MncxOVZINU42MkNCblFWNDNfTXBpa0wwM3pTRUxZUERhOVJFWWhQUWttRTdHNjlDdWhkbE5wT0duSVlkYmhOQUs0c245RWNiR0tv?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI·SK온 잇따라 고객 확보…엘앤에프 LFP 사업 커진다",
+      "source": "핀포인트뉴스",
+      "published": "2026-09-19",
+      "published_at": "2026-09-19T11:24:47+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NckVNU0NaNC1zdFVqSmRKbzkwNkVNTDN4akRUVTFnY2V6djlTN0lHSkVTN1pkMmtZblFBQzVOcHUxWlhDdEV3Q2JvM0VUZlMxRTg3d2pkMVBWeXRPV0FOa1JxWXVHeVZyX1R0YmJDVm1RMlXSAXdBVV95cUxQRmFnMEV1TkF6RmJWSGZhdkVlZHpJTmRod3RlMEtua3c1cFBDQV9yOWhGNUxJMXhqdVFfR0RpbmdDVnhuOHZPZmlNUXNZdGFEdmF4YWt0b2xyclNRbnBjV0hueUFSenN1ZWdHaVV4czhSaVQta3o4NA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_sdi"
+      ],
+      "title": "삼성SDI, InvestingPro 적정가치 예측 후 64% 급등 By Investing.com",
+      "source": "Investing.com 한국어",
+      "published": "2026-09-18",
+      "published_at": "2026-09-18T20:50:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yYV9NZE5rUFpaYW9JNUtYRzRYRE5kc0FrWW4wRTlORDItMlU5WUlpMEFYU1E4TXRXSkxWQ0phUTNEd19GMHRFMWJBZ3J4V2RTeV9DLUVEQmZDdVJzR1hMR2hMR09ubHIzd3kyekRaSWROS3hDakE?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2016,11 +1955,63 @@
       "companies": [
         "samsung_elec"
       ],
-      "title": "영하 25도 한파 거뜬…삼성전자, 제주서 ‘EHS 히트펌프’ 선봬",
+      "title": "삼성전자, 실리콘밸리서 글로벌 AI 인재와 기술 포럼…“AI·로봇 융합”",
+      "source": "스트레이트뉴스",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T14:45:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHMGROdmI4UHFnNDFMejhEb3hNMHFwMUR4TnF3dEpMVzdfWVZpQ0xId3BLZ1N6aE90Ul90WnlRNVhFaWgxbHRtRVhSV3VydkNGWE5FbDN2NFV0RUVhcHNsMmpQODdoRG1PSG5uakpKTUoxUVXSAXdBVV95cUxQdHp1R1JoTUFhMmxhV3VEZmhlaWlEWUg4Z1RvWm1zclpKY1ZqRFZIU3k3bEpPdEt3TU9PZ1lTOU5ZWHc2U1hZZjJJZy1fYXJ3bG9QVEtWWExzRHNTODd4SVAzTEcxVEtfZFJSQzR4ejdNcTBXZlVXSQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "노태문 삼성전자 사장 “AI, 거스를 수 없는 대세…AX 선도”",
       "source": "뉴스토마토",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T10:29:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XRFJUYjc4QXlxUmM3VVZKOFQyWTQzaGVyVml5N3hiQ1d5Y3NvdnF0a2FPRlpGWUFhTjB1bFNZVnBObFN3dlFla0dUcDNIRkYwTzlGd2NUNW1lOTdGdzZjZA?oc=5",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T14:30:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SblgtTjhsQlFFS1BxZ0Z4LWVnWmU5NXB4NnBDUTFwTVFGcFV6UjZEdksyc19LZF9OUWNQeDZ5cTYzeUpMaUlIUGx3a3prdW5BUGUxOVZCaVZYaUt3RFJV?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 스마트기기 넘어 AI·로봇으로… 노태문 “AX 선도”",
+      "source": "IT조선",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T14:10:27+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZMXBMdEpZVHJ6SmU1ODRNbjdUajBTSTFVV2pwOU01SktVTUcweGN4a2FSOFRKWlU5TkhQeW5nUVB1ZnhrTXlXNkxRa19pWWoxSkVuUFo5eUlYby1tYnNPUV9SOEZVVHpWUGxzRzFibmHSAXRBVV95cUxNZkhYZUEzUkFoWG8wc0lLT05VU2RVUG0wbG1mOUZVck1GU084bWlPWUtpSXN0N3cyMUVJWG5DMXN1aU5pTWQ5Q0hMdDkwSi0tZTFsVTRoNXNkSV9qQnBVcGUtN0tVdkVad2dRLWg3UXdqRm53UA?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "쪼개진 삼성전자 노조, 집행부 내홍까지",
+      "source": "v.daum.net",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T13:33:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oRjM2WTdqWWtiUjgtZWdOdktDMnZ2Rl9NSU5rcUdydVdadTl3RUlRcFJYcTVJcnlWdTFIOWVvVmdlRVBFUy14U2NRWjVKb2M?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "samsung_elec"
+      ],
+      "title": "삼성전자, 실리콘밸리서 AI·로봇 전략 공유…노태문 “AX 선도기업 도약”",
+      "source": "중앙일보",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T12:04:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xbjVFNWFMV3dESXBDYTZ4cnloRWtrTzhhWld0c3BKRDBrNjcxNkM2bmgxVHZuQVdubU9qeUIxM0w5VHVTUmJUSmNtc0JxYmkzaDZEUXZB?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2029,11 +2020,24 @@
       "companies": [
         "chosun_refractories"
       ],
-      "title": "“포스코 58년 만에 첫 파업…‘7.1% 인상’ 노조 vs ‘2%’ 사측 정면충돌”",
-      "source": "데일리저널",
-      "published": "2026-09-09",
-      "published_at": "2026-09-09T08:26:06+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsN1lGN2VrejQzNGJ3TlZlZkJOUHVkWlQ2Sm94OEdLU0xPMG5pTnBBdFFULWxyQkdsOVk0eG9xSFhQaURGYldkZEJyX3R3WXBJdkpsejFHcVBORHRaWkVrZWZJZHlVOFlnR1E?oc=5",
+      "title": "내화 래밍 컴파운드 시장 2035년 전망",
+      "source": "IndexBox",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T02:16:10+09:00",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEZ6X3NxWndqYkJQTjZlVlRxcXdPODRkZXI3cl9yTC0xWTN1WmpqWXhBQUE3cGtfU3hGMUNOWUdxX0FqZXZDeFhkYXF6LVU5bG9BaTVta3dUcmc5YmtLZy1QaldMVXNReFljT0w0NG1sUDItczByQTV1X2w5dGFtelNoTENtX2lSTHlHRQ?oc=5",
+      "summary": "",
+      "title_match": false,
+      "window_days": 90
+    },
+    {
+      "companies": [
+        "chosun_refractories"
+      ],
+      "title": "내화 벽돌 내화 재료 시장 2035년 전망: 제강·시멘트 수요가 성장 견인 - 뉴스 및 통계",
+      "source": "IndexBox",
+      "published": "2026-09-18",
+      "published_at": "2026-09-18T22:51:13+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOM1g3VXpSZ0Z4MG9WdkVZblY3OGVNNEJTanlteUJtTk5pZHN3YXlYdE5hUG5CZ1RSdi0yMWJFbXhtZnlxRExFaXBJcmVGUjVXTHlKZ0RrQUptWWozUXZrcTlMa3RQRWY5enhNM2ViZG5mY2xZOFpPdHcwNXNueVpwVXZ4UlYyeWNNNWNLZG9vNjhiMmdaS1MwdTJYVVdLY05GNTdhN0RtbHdoeFNIbkZSWW5sRWkwQnZ3MTZSYllXR3BVMmphTWhqZUtXRQ?oc=5",
       "summary": "",
       "title_match": false,
       "window_days": 90
@@ -2042,11 +2046,11 @@
       "companies": [
         "oci"
       ],
-      "title": "OCI홀딩스 종속회사 2년 반 만에 72→128개 '껑충'...미국 태양광·ESS ‘캐시카우’로 키운다",
-      "source": "소비자가 만드는 신문",
-      "published": "2026-09-09",
-      "published_at": "2026-09-09T06:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mTEc2LVJIVE1OSjJtR0RlSU5vTTZMVHp1SXY0bFBNb2JONmRoMDdtUnpBbmw3czkzQnJBeVJMb19lQXlqR2Z0MWpMYVYycFFiQmNvb05jVnh0X0drSzNnZ3ozdy1jT0pQRF9xOXY0MmdlY2c?oc=5",
+      "title": "美 태양광 ‘中 지우기’ 가속…한화큐셀·OCI홀딩스 빛 보나 : 네이버 블로그",
+      "source": "Naver Blog",
+      "published": "2026-09-16",
+      "published_at": "2026-09-16T08:55:57+09:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamxBa2FyMEJDMXVVRFlzMHlIS0FYd29Kb3VMb2tEdEFrVXBJQjN5QnQxMW9GUDkwLXZDekRiWTZ4Nm5MQmpJWml4U2kySjAtQ3A5ZEsxbzNWMTFjaUZxSnUxRnpLZGVxQmUyMEpobkhkRW90ekRCOWgxcFpmVnFsQXV1VjM3QTRXMURRU0d0RQ?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2055,11 +2059,24 @@
       "companies": [
         "oci"
       ],
-      "title": "플레이 화면 한 장으로 이해하는 홀덤 블랙잭 구성",
-      "source": "Calgary Roughnecks",
-      "published": "2026-09-13",
-      "published_at": "2026-09-13T06:10:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOckdyZW13VUNfeFlrTWQ2N2oycERBT2Q4YUx5YVRDNWhQYkRINVB3eTJkYlIxZ0h0TzNsSmRhS01YTjRpbElpOVg3MDFSQ3lrb0tpUUNVdW1JcVoxUnI3c0tCOHdyUHRXXzdhX2I2Nm5KRHFVczFBbUlhczVWNS00N2Z1UEM5N1ZJb21vbmpKWk9kOHNNNHF0Q2d3OGtRZ3VTekZlSmRHYmdxYjNDVmc1VElaNnBoRUZzQ3FMY3hIVlVwQ0JlOWFYUTBjZTNxR2g5LWtNLXhLV2JEbGVwY195VXZ3aw?oc=5",
+      "title": "美 태양광 ‘中 지우기’ 가속…한화큐셀·OCI홀딩스 빛 보나",
+      "source": "dealsite.co.kr",
+      "published": "2026-09-14",
+      "published_at": "2026-09-14T16:11:51+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wTlRpQU9nZEtYWHlkRlYzR2pvRXFhTlJvWk5ZX3V0REdQWGZWckJGYW0wRHVMdTdacEw2WFpRakhCTGZIVDItRFBQNVIyWGM?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "oci"
+      ],
+      "title": "한국IR협의회, ‘2026 한국IR대상’ 시상식 개최",
+      "source": "라이센스뉴스",
+      "published": "2026-09-19",
+      "published_at": "2026-09-19T18:07:29+09:00",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TUFMzZVpuMlFudE1zTVpYWlEzMUcyWUVLWXpOM2NsYVJWWU5xQ0pibFRJMzFnUUNjUm5WZ09MY2JjWUJNQ01iSmJYYURWd3VKdXR1T1RKUUQxeHZDZl9vRjVzbHZDZ0FNTnNv?oc=5",
       "summary": "",
       "title_match": false,
       "window_days": 7
@@ -2068,11 +2085,11 @@
       "companies": [
         "oci"
       ],
-      "title": "화학사업 이끌다 OCI 대표 오른 김유신 부회장 피의자 소환…적자 때도 10억대 보수",
-      "source": "뉴스필드",
-      "published": "2026-09-12",
-      "published_at": "2026-09-12T14:05:07+09:00",
-      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPVEFyTnhOdU9CSWEyckZtSEJqMFo1aTlTZkRsNmV5RTF5Y3BoQlVwejhtV2FWMHA3OU9HMEJLMXN0MWdBVVUyazE0SlpzSnBzOWRHNDNoNDNBYXpBUGoxZFJXTlNHNFFZOEIwQ2ZYNUo4eEctMWw4NUpQZUpJekNYdVdKcEJYZlFZNm0xeHcyekpHRUh5XzFDX0tVa2tyM0swMUZEMmZtSzZoZ0hJcmR5NmRGa3VVaHZ6bm5iNUZIazBlV2ZLSGRCcVlyeHM0cko1b0VNa3BNaFFQUDNaNXotTm5tVHB3TDlQc0ZoRjROSnV2VU81elk0a0JFUVZoV3ZYQ3A2dE1zZDZMX1JNZmJOVE1NWVRXUVF0R0xXWHFqU25PN1cxaFZ6eEduSFhnYkZMUXJoVFNxamUtXzJzc1IzMlpZYTRqZw?oc=5",
+      "title": "“태양광 시장 잡아라”···철강업계, 中 저가재와 ‘정면 승부’",
+      "source": "ziksir.com",
+      "published": "2026-09-18",
+      "published_at": "2026-09-18T06:00:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aYUlWOWp1Sl9mWXBkcFZOcTR2am1YYUtYT3EtOVhzOHJGM2JNQWc1dlMycXM0NlVsZGdDNXU0VHdkVVJoQmotajk2STE1b0tzMmUxY1FESEVwOTBObHRza1piYjUxa1ZY0gFsQVVfeXFMTWhLWmFQTnljYnR2MGs2UFNIT1hxRWlweXhlREx5OTlydl9iVVRkLVBEeXJrYnJnLXpaUjRoNVF1Um1KMHhBYmJvZVhHZlJPQm44dTlBRW9ROXhOVkFRX3FzaUk1N0s3QmtOZkZw?oc=5",
       "summary": "",
       "title_match": false,
       "window_days": 7
@@ -2081,11 +2098,11 @@
       "companies": [
         "hyundai_motor"
       ],
-      "title": "13년 맞은 새만금청…현대차 타고 '기회의 땅'으로",
-      "source": "연합인포맥스",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T12:00:43+09:00",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kU0dCX2tXazFzSzk3YkpKT0ZOVlhGLVJiR1huaVAyZHlXdjJYa3dtQ3RrbDUxNTlfNVBkelZQY1NGOURMVDQwMDFYY0MxQUlrTVp4cEdWajlCcS1mOHVmaUxiY1J3QkNUd2phRGRHdGc?oc=5",
+      "title": "6년 만에 싹 바뀐 현대차 투싼… 근육질 외관에 뒷문 83도 ‘활짝’ - 조선비즈",
+      "source": "Chosunbiz",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T15:27:50+09:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ISzRLSjJwYUJHWmVLeUd0WHptQXdZTWNpYU01VGpGMVBXVGRoMXpLUWZmak9yWDFzWnJMZWRsRFlydFdMeU1sbmEteDQxUXFPd0xxZ1Zua2VBUGJRcWZzREtkMWdnWWFpeXdaU01vNWtZcDhvR05nU3lETFZ3MG_SAZMBQVVfeXFMTUxCdzFwbU5zTVh4My1YaWw3UDdxRGtOblpGWkxQUVNpZnNBQ0w2VDVQcU9EMlZkZ1ZJczRlelZYREtJd2NoM3lPMkYweHA4MF9UdklMVHlsdFRJZEFaOFVockM3ZTE4Z081eWtWWng4WDJyQ3ZSaXNTX1BVS0JNckNOUVlnQnBKMWt1TktqNXVONWxJ?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2094,11 +2111,11 @@
       "companies": [
         "hyundai_motor"
       ],
-      "title": "새만금 내년 예산안 2천222억…현대차 로봇·AI 투자 뒷받침에 '화력'",
-      "source": "연합인포맥스",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T12:00:41+09:00",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52NzhLTlBuV0ZIVWl3aXVRRktVZHRBZkl6TldnNkxRRmEtLXhkbTlSQVN2THhxMTItVmtnSVMxTDJkeWtveGJhVEVrWE5tWGxsUTJmbkh5RThMc29oSm9NYlZISWZ0bVBSeF9ZSDRadWQ?oc=5",
+      "title": "현대차, 로보택시 '투트랙' 승부…美서 수만대 만들고 韓서 기술 키운다",
+      "source": "v.daum.net",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T15:00:14+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSUFVUUjlmWnNNNE4zcVRoUUJuSktkOVgtRGxMdkJVV2RRYjVDbGs2WGR6S0ZvUlZNVnZLQXYzVHlCQ3l5SElBODBkNThOZG8?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2107,11 +2124,11 @@
       "companies": [
         "hyundai_motor"
       ],
-      "title": "현대차 새만금 9조 투자에 ‘16조 경제효과·고용창출 7만명’",
-      "source": "에너지경제신문",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T12:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51YWY0RFZOanpMRXJtMU0ycnpkNmxYRHRyekFWd0xxSURJZ2J4TUtKX1NPTVlpRG1Yd2hjU1lkR1FVdFJsUTl5TG5xY2F5dnZDU1ppa0Z3X242TjQ?oc=5",
+      "title": "현대차, 5세대 투싼 공개…차체 키우고 하이브리드 성능 높였다",
+      "source": "뉴스핌",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T14:18:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zU1o1dDV0bEEzOEV0TVdWWkFJZ3AwVVo4UG5fd05nMVo1Ym1MTjlaV09uWmlPMzBsWEZ0UkZObDJXRGNsOXF3bXJvLU1LcEVDOUlBTXhzTFVDUlo2?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2120,11 +2137,11 @@
       "companies": [
         "hyundai_motor"
       ],
-      "title": "美 '현대차 하이브리드'·유럽 '기아 전기차'···수출 '쌍끌이'",
-      "source": "서울파이낸스",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:14:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1meE8yUWVWOFNlOGRPZUdWUWtHNmVsNjdPYjFYSFg5cXRfd2FJM3BYRFhmTzlXcTgySGJpQ09WbFU5NEFyR0YxbXNLZlZqaW5oekc3VlRDdk9WTzlHZlZNYkVtWklwTExlZ3c?oc=5",
+      "title": "“80만원→30만원, 삼전닉스보다 더 심하다” ‘반토막’에 목표가 줄하향…현대차 개미 어쩌나",
+      "source": "v.daum.net",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T11:41:55+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrdjBRb1d5X0tNblBuR2xuS0QtMzhXb1hxalY3UUZzVzJXTDhIeWlTWjZHMkJNdU1TcEs4SDdsTjdHYlktRlp3ZVJScVRrUlE?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7
@@ -2133,11 +2150,76 @@
       "companies": [
         "hyundai_motor"
       ],
-      "title": "현대차, 인증중고차 사업 출범 3주년 특별 할인 이벤트 진행",
-      "source": "메트로신문",
-      "published": "2026-09-14",
-      "published_at": "2026-09-14T11:02:13+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQYmZVbTEzZHd4Y1RzU25CN3pNd2hWQTBMOWNlc2tieHdGeDhfaThWb1htbEt5TzB6R0tZNnJZYXRVY3M5RUhWbmNORHhrSzY2T2lpVXd2UFRuX1pKTmNZTA?oc=5",
+      "title": "\"이거는 정말 미쳤다\"…곽범 경악시킨 현대차 '비밀병기' [현장+]",
+      "source": "한국경제",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T10:30:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNHhwRFRMSURJa1RDVHFhWVpCSGxueWt4VzBQcXBCaktGZThOVGV6UFBIVHo5RmFuWDZZSVhITk1MUFF2Snp5MDJHUDdzLUFNV0Y4Tjl3TnhnQQ?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "sk_group"
+      ],
+      "title": "반도체 공장 안전규정 위반 무더기 적발…SK하이닉스 사법처리",
+      "source": "경향신문",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T15:16:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15WUdiR2hPYjBrc1FBZkZjamR5VkdFZWQyT0dUZzdrcHVCbGpYMVFPSzRlMlZWNnEyVXhYY1lKYUNxa29TRmNqN3dKVGdRTjZvZVNValdZME1wd9IBX0FVX3lxTE8zSlVudFlaLUFKSFlsNk40STVobFNCdFR5Sm1TbzhWU09uLURHY1paZm1TLXBqNm8yX1JDLTJycUhIRGotVEVTR3dUZTFSODZaTTBjb2xHUkxtcWdkMTln?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "sk_group"
+      ],
+      "title": "‘신중론’에도 끊이지 않는 미·일 투자설…SK하이닉스 생산기지 주목",
+      "source": "뉴스토마토",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T13:46:48+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hbzFmMC1DZUZIazlyS2lCcS1MRnZ0eHpvU3ZKMDY1QjItV096bDJfSXpVSzQ3RlpURFRpQ3RuelN1MENnRG95QVhUcFBUbWpzRjEzUjNpQVJTZno0bzVWRg?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "sk_group"
+      ],
+      "title": "SK 주도 SOVAC, 지역문제 해법 모색…AI로 사회공헌 성과 측정",
+      "source": "중앙일보",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T13:01:11+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xMVd3R0FmcGtEbjlNaXFNNFZPRDhEV2tkLTZvcTJESXd6dU1IU2UzVzdFc0plbVNRNnhTWFVGY1RfMnVHYXo1U0twYmdoVk5GZlNhYWdB?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "sk_group"
+      ],
+      "title": "SK하이닉스서 산업안전 위반 167건 적발",
+      "source": "v.daum.net",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T12:39:01+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1weDlpUXppS1dqeGx0UzYyN1ZRZmZnZnQxSm9iSGNFcFF1Y1N6dkcwV2xEX2x0SnRfQkpWcmJlbzNvdTRmc3lvZHM3b1F4OWc?oc=5",
+      "summary": "",
+      "title_match": true,
+      "window_days": 7
+    },
+    {
+      "companies": [
+        "sk_group"
+      ],
+      "title": "SK바이오팜, 파킨슨병 신약 품었다…오름은 BMS 임상 중단 [바이오 주간 결산]",
+      "source": "pharm.edaily.co.kr",
+      "published": "2026-09-20",
+      "published_at": "2026-09-20T08:30:03+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBPRFNIdFc3ZjNERlBKYkwteE9xTVBDbW5IMHlGcmcxdmp5N0RkZzFpeWVZOXdId2Zyam5naWU1SC1yNGlnNnBlclBCTjdXbVlDd2J0ZDA2VlhXb29ya0cxRjZ2SEx4YkJkMnFfYWFB?oc=5",
       "summary": "",
       "title_match": true,
       "window_days": 7

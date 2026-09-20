@@ -51,11 +51,40 @@ def test_title_match_flag():
     assert body["title_match"] is False
 
 
+def test_sk_alias_does_not_match_english_words():
+    """'SK' 는 두 글자 라틴 별칭이라 desk/risk 같은 영단어에 걸리면 안 된다."""
+    aliases = ["SK", "에스케이"]
+    hit = news.to_record(_entry("SK하이닉스, HBM 증설 결정"), "sk_group", aliases)
+    assert hit["title_match"] is True
+    assert news.to_record(_entry("에스케이온 배터리 수주"), "sk_group", aliases)["title_match"] is True
+    # 영단어 속 sk 는 회사명이 아니다
+    for noise in ["ESG risk 관리 강화", "Help desk 시스템 개편", "Task force 가동"]:
+        rec = news.to_record(_entry(noise), "sk_group", aliases)
+        assert rec["title_match"] is False, noise
+
+
+def test_sk_group_is_registered():
+    from src import config
+    keys = [c["key"] for c in config.COMPANIES]
+    assert "sk_group" in keys
+    sk = next(c for c in config.COMPANIES if c["key"] == "sk_group")
+    assert sk["label"] == "SK그룹"
+
+
 def test_market_noise_is_dropped():
     assert news.is_market_noise("OCI홀딩스 주가, 8월 11일 장중 274,500원 3.51% 하락")
     assert news.is_market_noise("조선내화 투자분석 2026. 08. 07")
     assert not news.is_market_noise("OCI홀딩스, 텍사스 셀 공장 재추진 저울질")
     assert news.to_record(_entry("OCI홀딩스 주가 급락"), "oci", ["OCI홀딩스"]) is None
+
+
+def test_sports_news_is_dropped():
+    """대기업은 구단을 보유해 그룹명 검색에 스포츠 기사가 딸려 온다."""
+    assert news.is_market_noise("'김륜성 대기명단' 제주SK, 강원 원정 선발 라인업 발표")
+    assert news.is_market_noise("프로야구 SK 와이번스 경기 결과")
+    # '라인업'·'감독' 은 사업 기사에도 쓰이므로 제외어가 아니다
+    assert not news.is_market_noise("삼성전자 신제품 라인업 공개")
+    assert not news.is_market_noise("SK하이닉스, HBM 증설 결정")
 
 
 def test_rank_prefers_title_match_and_caps_body_only():

@@ -55,7 +55,7 @@ from pathlib import Path
 import requests
 
 from src import config
-from src.text import clean_text
+from src.text import alias_matches, clean_text
 
 ROOT = Path(__file__).resolve().parents[2]
 KST = timezone(timedelta(hours=config.KST_OFFSET_HOURS))
@@ -125,35 +125,12 @@ def fetch_company(session: requests.Session, key: str, keyword: str) -> list[dic
 # ---------------------------------------------------------------------------
 # 회사명 대조
 # ---------------------------------------------------------------------------
-_LATIN_SHORT = re.compile(r"^[A-Za-z0-9\-]{1,4}$")
-
-
-def _alias_pattern(alias: str) -> re.Pattern | None:
-    """짧은 라틴 별칭만 경계 조건을 건다.
-
-    'LS' 를 그냥 부분 문자열로 찾으면 TOOLS 같은 이름에 걸린다. 반대로 \\b 는
-    한글이 단어 문자로 취급돼 'LS전선' 에서 경계가 생기지 않아 못 쓴다.
-    그래서 앞뒤에 라틴 문자·숫자가 오지 않는 경우만 인정한다.
-    """
-    if not _LATIN_SHORT.match(alias):
-        return None
-    return re.compile(rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])",
-                      re.IGNORECASE)
-
-
 def company_matches(name: str, aliases: list[str]) -> bool:
-    """등록 회사명이 이 기업(그룹)의 것인지."""
-    if not name:
-        return False
-    lowered = name.lower()
-    for alias in aliases:
-        pattern = _alias_pattern(alias)
-        if pattern is not None:
-            if pattern.search(name):
-                return True
-        elif alias.lower() in lowered:
-            return True
-    return False
+    """등록 회사명이 이 기업(그룹)의 것인지.
+
+    규칙은 src/text.py 의 alias_matches 에 있다 (뉴스 제목 대조와 공용).
+    """
+    return alias_matches(name, aliases)
 
 
 # ---------------------------------------------------------------------------

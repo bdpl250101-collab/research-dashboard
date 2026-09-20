@@ -39,7 +39,7 @@ import feedparser
 import requests
 
 from src import config
-from src.text import clean_text
+from src.text import alias_matches, clean_text
 
 ROOT = Path(__file__).resolve().parents[2]
 KST = timezone(timedelta(hours=config.KST_OFFSET_HOURS))
@@ -139,7 +139,9 @@ def to_record(entry: dict, company_key: str, aliases: list[str]) -> dict | None:
         "published_at": published_at,
         "url": entry.get("link", ""),
         "summary": summary,
-        "title_match": any(a.lower() in title.lower() for a in aliases),
+        # 짧은 라틴 별칭(SK)이 desk/risk 같은 영단어에 걸리지 않도록
+        # 회사명 대조와 같은 경계 규칙을 쓴다
+        "title_match": alias_matches(title, aliases),
     }
 
 
