@@ -19,8 +19,9 @@ on:
 permissions:
   contents: write
 
+# 일일 워크플로와 같은 파일을 건드리므로 그룹을 공유한다
 concurrency:
-  group: weekly-update
+  group: dashboard-update
   cancel-in-progress: false
 
 jobs:

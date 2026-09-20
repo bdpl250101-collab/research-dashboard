@@ -784,3 +784,59 @@ body {
   .linkbar { padding: 20px; border-radius: 24px; }
   .linkbar-links a { padding: 6px 13px; font-size: 0.84rem; }
 }
+
+/* ── 올라온 직무 요약 ─────────────────────────────────────────── */
+/* 칩의 숫자를 글자로 함께 적어, 색이나 크기만으로 정보를 전달하지 않는다. */
+.rolebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--card-soft);
+}
+
+.rolebar > strong {
+  font-size: 0.9rem;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.rolebar-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rolechip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 99px;
+  background: var(--chip-bg);
+  color: var(--chip-ink);
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.rolechip b { font-weight: 900; }
+
+.rolechip i {
+  font-style: normal;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--urgent-ink);
+  background: var(--urgent-bg);
+  border-radius: 99px;
+  padding: 0 6px;
+}
+
+@media (max-width: 620px) {
+  .rolebar { padding: 14px 16px; border-radius: 16px; }
+  .rolechip { font-size: 0.8rem; padding: 4px 10px; }
+}

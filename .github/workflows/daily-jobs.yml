@@ -1,0 +1,57 @@
+# 채용공고만 매일 갱신한다.
+# 논문·뉴스는 주 단위로 충분하지만 채용공고는 마감일이 걸려 있어 하루만 밀려도
+# 지원 기회를 놓칠 수 있다. 그래서 수집 주기를 분리했다.
+# 논문·뉴스는 직전 스냅샷 값을 그대로 유지하므로 이 워크플로가 덮어쓰지 않는다.
+name: daily-jobs
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 매일 23:00 UTC = 한국시간 08:00
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+# 주간 워크플로와 같은 파일(data/, docs/)을 건드리므로 동시 실행을 막는다
+concurrency:
+  group: dashboard-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 오프라인 테스트
+        run: |
+          python tests/test_jobs.py
+          python tests/test_render.py
+
+      - name: 채용공고 수집 + 대시보드 갱신
+        env:
+          SARAMIN_API_KEY: ${{ secrets.SARAMIN_API_KEY }}
+        run: python -m src.pipeline --skip-papers --skip-news
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 건너뜀"
+          else
+            git commit -m "채용 갱신: $(date -u -d '+9 hours' +%Y-%m-%d)"
+            git push
+          fi

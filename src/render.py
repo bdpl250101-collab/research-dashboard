@@ -61,6 +61,7 @@ def build_snapshot(
             for c in config.JOB_COMPANIES
         ],
         "career_sites": config.CAREER_SITES,
+        "job_roles": [{"key": r["key"], "label": r["label"]} for r in config.JOB_ROLES],
         "deadline_soon_days": config.JOB_DEADLINE_SOON_DAYS,
         "today": stamp.date().isoformat(),
         "papers": papers,
@@ -169,6 +170,31 @@ def group_jobs(snapshot: dict) -> list[dict]:
     return sections
 
 
+def role_summary(snapshot: dict) -> list[dict]:
+    """올라온 직무와 건수. '어떤 직무가 올라왔는지' 를 한 줄로 보여주기 위한 집계.
+
+    config.JOB_ROLES 순서를 따르고, 건수 0 인 직무는 빼서 화면을 어지럽히지 않는다.
+    분류에 실패한 '기타' 는 항상 맨 뒤로 보낸다.
+    """
+    counts: dict[str, int] = {}
+    new_counts: dict[str, int] = {}
+    for job in snapshot.get("jobs", []):
+        key = job.get("role") or "etc"
+        counts[key] = counts.get(key, 0) + 1
+        if job.get("is_new"):
+            new_counts[key] = new_counts.get(key, 0) + 1
+
+    rows = []
+    for role in snapshot.get("job_roles", []):
+        if counts.get(role["key"]):
+            rows.append({**role, "count": counts[role["key"]],
+                         "new": new_counts.get(role["key"], 0)})
+    if counts.get("etc"):
+        rows.append({"key": "etc", "label": "기타", "count": counts["etc"],
+                     "new": new_counts.get("etc", 0)})
+    return rows
+
+
 def days_until(deadline: str, today: str) -> int | None:
     """마감까지 남은 일수. 마감일이 없거나 형식이 이상하면 None."""
     if not deadline or not today:
@@ -234,12 +260,14 @@ def render(
     paper_sections = group_papers(snapshot)
     news_sections = group_news(snapshot)
     job_sections = group_jobs(snapshot)
+    job_roles = role_summary(snapshot)
 
     html = template.render(
         snapshot=snapshot,
         paper_sections=paper_sections,
         news_sections=news_sections,
         job_sections=job_sections,
+        job_roles=job_roles,
         paper_total=len(snapshot["papers"]),
         news_total=len(snapshot["news"]),
         job_total=len(snapshot.get("jobs", [])),

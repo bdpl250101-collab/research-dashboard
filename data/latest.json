@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:16+09:00",
+  "generated_at": "2026-09-20T16:25+09:00",
   "week": "2026-W38",
   "lookback_days": 7,
   "topic_totals": {
@@ -229,6 +229,44 @@
       "label": "GS바이오",
       "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=GS%EB%B0%94%EC%9D%B4%EC%98%A4",
       "official": false
+    }
+  ],
+  "job_roles": [
+    {
+      "key": "plant",
+      "label": "플랜트·시운전"
+    },
+    {
+      "key": "rnd",
+      "label": "연구개발"
+    },
+    {
+      "key": "process",
+      "label": "생산·공정"
+    },
+    {
+      "key": "quality",
+      "label": "품질·분석"
+    },
+    {
+      "key": "equipment",
+      "label": "설비·정비"
+    },
+    {
+      "key": "safety",
+      "label": "환경·안전"
+    },
+    {
+      "key": "sales",
+      "label": "영업·구매"
+    },
+    {
+      "key": "it",
+      "label": "IT·데이터"
+    },
+    {
+      "key": "support",
+      "label": "경영지원"
     }
   ],
   "deadline_soon_days": 7,

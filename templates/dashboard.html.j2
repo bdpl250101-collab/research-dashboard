@@ -234,6 +234,17 @@
       </p>
     </div>
 
+    {% if job_roles %}
+    <div class="rolebar">
+      <strong>올라온 직무</strong>
+      <div class="rolebar-chips">
+        {% for role in job_roles %}
+        <span class="rolechip">{{ role.label }} <b>{{ role.count }}</b>{% if role.new %}<i>신규 {{ role.new }}</i>{% endif %}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if snapshot.career_sites %}
     <div class="linkbar">
       <div class="linkbar-head">
@@ -272,6 +283,7 @@
               <div class="meta">
                 {% if job.company_name %}<span class="journal">{{ job.company_name }}</span>{% endif %}
                 <span class="badge{% if job.closing_soon %} urgent{% endif %}">{{ job | deadline }}</span>
+                {% if job.role_label %}<span class="badge soft">{{ job.role_label }}</span>{% endif %}
                 {% if job.is_new %}<span class="badge">신규</span>{% endif %}
                 {% if job.deadline %}<span>~{{ job.deadline }}</span>{% endif %}
               </div>

@@ -29,6 +29,10 @@
         "experience": str,        # 경력무관 / 신입 …
         "education": str,
         "industry": str,
+        "saramin_role": str,      # 사람인 직무 분류명
+        "role": str,              # config.JOB_ROLES 의 key
+        "role_label": str,        # 화면 표시용 직무명
+        "source": str,            # 사람인 / 각 사 채용 사이트
         "job_id": str,            # 사람인 공고 번호 (중복 판정 키)
         "is_new": bool,           # 직전 주차 아카이브에 없던 공고
     }
@@ -155,6 +159,21 @@ def company_matches(name: str, aliases: list[str]) -> bool:
 # ---------------------------------------------------------------------------
 # 레코드 변환
 # ---------------------------------------------------------------------------
+def classify_role(title: str, saramin_role: str = "") -> tuple[str, str]:
+    """(직무 key, 직무 label). 제목을 먼저 보고, 없으면 사람인 직무명으로 본다.
+
+    사람인 job-code 는 표준 분류라 화학공학 관점과 어긋날 때가 있어
+    (시운전이 '생산/제조' 로 뭉뚱그려지는 식) 제목을 우선한다.
+    어디에도 안 걸리면 ('etc', '기타').
+    """
+    for source in (title or "", saramin_role or ""):
+        lowered = source.lower()
+        for role in config.JOB_ROLES:
+            if any(term.lower() in lowered for term in role["terms"]):
+                return role["key"], role["label"]
+    return "etc", "기타"
+
+
 def _nested(item: dict, *path: str) -> str:
     node = item
     for step in path:
@@ -190,6 +209,11 @@ def to_record(item: dict, company_key: str, aliases: list[str]) -> dict | None:
     if not title:
         return None
 
+    # 사람인 직무 분류 (세부 > 중분류 순으로 있는 것을 쓴다)
+    saramin_role = (_nested(item, "position", "job-code", "name")
+                    or _nested(item, "position", "job-mid-code", "name"))
+    role_key, role_label = classify_role(title, saramin_role)
+
     return {
         "companies": [company_key],
         "title": title,
@@ -204,7 +228,11 @@ def to_record(item: dict, company_key: str, aliases: list[str]) -> dict | None:
         "experience": _nested(item, "position", "experience-level", "name"),
         "education": _nested(item, "position", "required-education-level", "name"),
         "industry": _nested(item, "position", "industry", "name"),
+        "saramin_role": saramin_role,
+        "role": role_key,
+        "role_label": role_label,
         "job_id": str(item.get("id", "")),
+        "source": "사람인",
         "is_new": False,          # collect() 에서 직전 주차와 대조해 채운다
     }
 
