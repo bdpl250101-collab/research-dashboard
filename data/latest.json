@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:24+09:00",
+  "generated_at": "2026-09-20T16:16+09:00",
   "week": "2026-W38",
   "lookback_days": 7,
   "topic_totals": {
@@ -139,8 +139,100 @@
       "label": "GS바이오"
     }
   ],
+  "career_sites": [
+    {
+      "label": "두산",
+      "url": "https://career.doosan.com",
+      "official": true
+    },
+    {
+      "label": "삼성",
+      "url": "https://www.samsungcareers.com",
+      "official": true
+    },
+    {
+      "label": "SK",
+      "url": "https://www.skcareers.com",
+      "official": true
+    },
+    {
+      "label": "현대자동차",
+      "url": "https://talent.hyundai.com",
+      "official": true
+    },
+    {
+      "label": "HD현대",
+      "url": "https://recruit.hd.com",
+      "official": true
+    },
+    {
+      "label": "포스코",
+      "url": "https://recruit.posco.com",
+      "official": true
+    },
+    {
+      "label": "한화",
+      "url": "https://www.hanwhain.com",
+      "official": true
+    },
+    {
+      "label": "GS칼텍스",
+      "url": "https://recruit.gscaltex.com",
+      "official": true
+    },
+    {
+      "label": "OCI",
+      "url": "https://oci.career.greetinghr.com/ko/home",
+      "official": true
+    },
+    {
+      "label": "S-OIL",
+      "url": "https://www.s-oil.com/company/recruit/RecruitList.aspx",
+      "official": true
+    },
+    {
+      "label": "LS",
+      "url": "https://www.lsholdings.com/ko/careers/recruitment-guide",
+      "official": true
+    },
+    {
+      "label": "롯데",
+      "url": "https://recruit.lotte.co.kr",
+      "official": true
+    },
+    {
+      "label": "고려아연",
+      "url": "https://careers.koreazinc.co.kr",
+      "official": true
+    },
+    {
+      "label": "E1",
+      "url": "https://e1.recruiter.co.kr/career/jobs",
+      "official": true
+    },
+    {
+      "label": "동서석유화학",
+      "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EB%8F%99%EC%84%9C%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99",
+      "official": false
+    },
+    {
+      "label": "조선내화",
+      "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EC%A1%B0%EC%84%A0%EB%82%B4%ED%99%94",
+      "official": false
+    },
+    {
+      "label": "현대IHL",
+      "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%ED%98%84%EB%8C%80IHL",
+      "official": false
+    },
+    {
+      "label": "GS바이오",
+      "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=GS%EB%B0%94%EC%9D%B4%EC%98%A4",
+      "official": false
+    }
+  ],
   "deadline_soon_days": 7,
-  "today": "2026-09-14",
+  "today": "2026-09-20",
   "papers": [
     {
       "topics": [
