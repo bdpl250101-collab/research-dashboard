@@ -232,6 +232,36 @@ JOB_COMPANIES: list[dict] = [
 ]
 
 # ---------------------------------------------------------------------------
+# 3-3. 채용 사이트 바로가기
+#      사람인 API 로 받는 '공고' 와 별개로, 각 사 공식 채용 페이지 링크다.
+#      대기업 공채는 자사 사이트에만 올리는 경우가 많아 API 수집만으로는 놓친다.
+#      official=False 는 전용 채용 사이트가 없어 사람인 검색으로 연결한 곳이다.
+#      URL 은 전부 HTTP 200 확인 후 넣었다. 링크가 깨지면 여기만 고치면 된다.
+# ---------------------------------------------------------------------------
+CAREER_SITES: list[dict] = [
+    {"label": "두산", "url": "https://career.doosan.com", "official": True},
+    {"label": "삼성", "url": "https://www.samsungcareers.com", "official": True},
+    {"label": "SK", "url": "https://www.skcareers.com", "official": True},
+    {"label": "현대자동차", "url": "https://talent.hyundai.com", "official": True},
+    {"label": "HD현대", "url": "https://recruit.hd.com", "official": True},
+    {"label": "포스코", "url": "https://recruit.posco.com", "official": True},
+    {"label": "한화", "url": "https://www.hanwhain.com", "official": True},
+    {"label": "GS칼텍스", "url": "https://recruit.gscaltex.com", "official": True},
+    {"label": "OCI", "url": "https://oci.career.greetinghr.com/ko/home", "official": True},
+    {"label": "S-OIL", "url": "https://www.s-oil.com/company/recruit/RecruitList.aspx",
+     "official": True},
+    {"label": "LS", "url": "https://www.lsholdings.com/ko/careers/recruitment-guide",
+     "official": True},
+    {"label": "롯데", "url": "https://recruit.lotte.co.kr", "official": True},
+    {"label": "고려아연", "url": "https://careers.koreazinc.co.kr", "official": True},
+    {"label": "E1", "url": "https://e1.recruiter.co.kr/career/jobs", "official": True},
+    {"label": "동서석유화학", "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EB%8F%99%EC%84%9C%EC%84%9D%EC%9C%A0%ED%99%94%ED%95%99", "official": False},
+    {"label": "조선내화", "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EC%A1%B0%EC%84%A0%EB%82%B4%ED%99%94", "official": False},
+    {"label": "현대IHL", "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%ED%98%84%EB%8C%80IHL", "official": False},
+    {"label": "GS바이오", "url": "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=GS%EB%B0%94%EC%9D%B4%EC%98%A4", "official": False},
+]
+
+# ---------------------------------------------------------------------------
 # 4. 수집 범위 / 경로
 # ---------------------------------------------------------------------------
 LOOKBACK_DAYS = 7           # 매주 실행 기준 조회 기간

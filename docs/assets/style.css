@@ -717,3 +717,70 @@ body {
   .item { padding: 14px 20px; }
   .empty { padding: 22px 20px; }
 }
+
+/* ── 채용 사이트 바로가기 ─────────────────────────────────────── */
+/* 사람인 API 로 받는 '공고' 와 별개로, 각 사 공식 채용 페이지로 가는 링크.
+   대기업 공채는 자사 사이트에만 올라오는 경우가 많아 API 수집만으로는 놓친다. */
+.linkbar {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  box-shadow: 0 10px 26px var(--shadow);
+  padding: 24px 28px;
+  margin-bottom: 24px;
+}
+
+.linkbar-head strong {
+  display: block;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+
+.linkbar-head span {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+}
+
+.linkbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.linkbar-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 15px;
+  border-radius: 99px;
+  border: 1px solid var(--line);
+  background: var(--card-soft);
+  color: var(--text);
+  font-size: 0.87rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.linkbar-links a:hover {
+  border-color: var(--primary-2);
+  color: var(--primary-2);
+  transform: translateY(-1px);
+}
+
+/* 전용 채용 사이트가 없어 사람인 검색으로 연결한 곳. 글자로 출처를 밝힌다. */
+.linkbar-links .via {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border-left: 1px solid var(--line);
+  padding-left: 6px;
+}
+
+@media (max-width: 620px) {
+  .linkbar { padding: 20px; border-radius: 24px; }
+  .linkbar-links a { padding: 6px 13px; font-size: 0.84rem; }
+}

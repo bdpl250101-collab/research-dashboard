@@ -133,6 +133,36 @@ def test_group_jobs_marks_closing_soon():
     assert section["entries"][1]["closing_soon"] is False
 
 
+def test_career_sites_are_wellformed():
+    """바로가기 링크는 전부 https 이고 라벨이 있어야 한다."""
+    from src import config
+    assert len(config.CAREER_SITES) >= 15
+    for site in config.CAREER_SITES:
+        assert site["label"].strip(), site
+        assert site["url"].startswith("https://"), site
+        assert isinstance(site["official"], bool), site
+    # 라벨 중복 금지 (같은 회사가 두 번 뜨면 혼란스럽다)
+    labels = [s["label"] for s in config.CAREER_SITES]
+    assert len(labels) == len(set(labels))
+
+
+def test_career_sites_reach_snapshot_and_html():
+    from src import config
+    snap = render.build_snapshot([], [], [])
+    assert len(snap["career_sites"]) == len(config.CAREER_SITES)
+
+    import tempfile
+    from pathlib import Path
+    with tempfile.TemporaryDirectory() as tmp:
+        path = render.write_snapshot(snap, Path(tmp) / "latest.json")
+        html = render.render(snapshot_path=path,
+                             output_path=Path(tmp) / "index.html").read_text(encoding="utf-8")
+    # 공고가 0건이어도 바로가기는 보여야 한다 (지금이 바로 그 상태다)
+    assert "채용 사이트 바로가기" in html
+    assert "https://career.doosan.com" in html
+    assert "SARAMIN_API_KEY" in html
+
+
 def test_missing_key_raises_dedicated_error():
     import os
     saved = os.environ.pop("SARAMIN_API_KEY", None)

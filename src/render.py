@@ -60,6 +60,7 @@ def build_snapshot(
             {k: c[k] for k in ("key", "label")}
             for c in config.JOB_COMPANIES
         ],
+        "career_sites": config.CAREER_SITES,
         "deadline_soon_days": config.JOB_DEADLINE_SOON_DAYS,
         "today": stamp.date().isoformat(),
         "papers": papers,

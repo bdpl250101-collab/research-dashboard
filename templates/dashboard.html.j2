@@ -234,6 +234,23 @@
       </p>
     </div>
 
+    {% if snapshot.career_sites %}
+    <div class="linkbar">
+      <div class="linkbar-head">
+        <strong>채용 사이트 바로가기</strong>
+        <span>대기업 공채는 자사 사이트에만 올라오는 경우가 많아 직접 링크를 함께 둡니다</span>
+      </div>
+      <div class="linkbar-links">
+        {% for site in snapshot.career_sites %}
+        <a href="{{ site.url }}" target="_blank" rel="noopener"
+           {% if not site.official %}title="전용 채용 사이트가 없어 사람인 검색 결과로 연결됩니다"{% endif %}>
+          {{ site.label }}{% if not site.official %}<span class="via">사람인</span>{% endif %}
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if snapshot.jobs %}
     <div class="card-grid">
       {% for section in job_sections %}
